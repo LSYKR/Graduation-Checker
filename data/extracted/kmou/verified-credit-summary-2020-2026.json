@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "admissionYear": 2020,
+      "departmentId": "computer-engineering",
+      "officialDepartmentName": "제어자동화공학부 IT융합",
+      "studentTypeScope": "freshman-credit-table",
+      "credits": {
+        "total": 140,
+        "generalRequired": 23,
+        "generalElective": 16,
+        "majorFoundation": 15,
+        "majorRequired": 71,
+        "majorElective": 0,
+        "freeElective": 15
+      },
+      "sourceDocumentId": "kmou-2020-new-student-course-guide",
+      "evidencePage": 25,
+      "status": "verified-source-value-not-approved-rule"
+    },
+    {
+      "admissionYear": 2021,
+      "departmentId": "computer-engineering",
+      "officialDepartmentName": "제어자동화공학부 IT융합전공",
+      "studentTypeScope": "freshman-credit-table",
+      "credits": {
+        "total": 140,
+        "generalRequired": 26,
+        "generalElective": 17,
+        "majorFoundation": 15,
+        "majorRequired": 60,
+        "majorElective": 12,
+        "freeElective": 10
+      },
+      "sourceDocumentId": "kmou-2021-new-student-course-guide",
+      "evidencePage": 14,
+      "status": "verified-source-value-not-approved-rule"
+    },
+    {
+      "admissionYear": 2022,
+      "departmentId": "computer-engineering",
+      "officialDepartmentName": "인공지능공학부 IT융합전공",
+      "studentTypeScope": "freshman-credit-table",
+      "credits": {
+        "total": 140,
+        "generalRequired": 26,
+        "generalElective": 17,
+        "majorFoundation": 15,
+        "majorRequired": 60,
+        "majorElective": 12,
+        "freeElective": 10
+      },
+      "sourceDocumentId": "kmou-2022-new-student-course-guide",
+      "evidencePage": 14,
+      "status": "verified-source-value-not-approved-rule"
+    },
+    {
+      "admissionYear": 2023,
+      "departmentId": "computer-engineering",
+      "officialDepartmentName": "인공지능공학부 컴퓨터공학전공",
+      "studentTypeScope": "freshman-credit-table",
+      "credits": {
+        "total": 140,
+        "generalRequired": 26,
+        "generalElective": 17,
+        "majorFoundation": 15,
+        "majorRequired": 60,
+        "majorElective": 12,
+        "freeElective": 10
+      },
+      "sourceDocumentId": "kmou-2023-new-student-course-guide",
+      "evidencePage": 13,
+      "status": "verified-source-value-not-approved-rule"
+    },
+    {
+      "admissionYear": 2024,
+      "departmentId": "computer-engineering",
+      "officialDepartmentName": "인공지능공학부 컴퓨터공학전공",
+      "studentTypeScope": "freshman-credit-table",
+      "credits": {
+        "total": 140,
+        "generalRequired": 26,
+        "generalElective": 17,
+        "majorFoundation": 15,
+        "majorRequired": 60,
+        "majorElective": 12,
+        "freeElective": 10
+      },
+      "sourceDocumentId": "kmou-2024-new-student-course-guide",
+      "evidencePage": 13,
+      "status": "verified-source-value-not-approved-rule"
+    },
+    {
+      "admissionYear": 2025,
+      "departmentId": "computer-engineering",
+      "officialDepartmentName": "인공지능공학부 컴퓨터공학전공",
+      "studentTypeScope": "freshman-credit-table",
+      "credits": {
+        "total": 140,
+        "generalRequired": 26,
+        "generalElective": 17,
+        "majorFoundation": 15,
+        "majorRequired": 43,
+        "majorElective": 15,
+        "freeElective": 24
+      },
+      "sourceDocumentId": "kmou-2025-new-student-course-guide",
+      "evidencePage": 13,
+      "status": "verified-source-value-not-approved-rule"
+    },
+    {
+      "admissionYear": 2026,
+      "departmentId": "computer-engineering",
+      "officialDepartmentName": "인공지능공학부 컴퓨터공학전공",
+      "studentTypeScope": "freshman-credit-table",
+      "credits": {
+        "total": 135,
+        "generalRequired": 26,
+        "generalElective": 15,
+        "majorFoundation": 12,
+        "majorRequired": 43,
+        "majorElective": 15,
+        "freeElective": 24
+      },
+      "sourceDocumentId": "kmou-2026-new-student-course-guide",
+      "evidencePage": 13,
+      "status": "verified-source-value-not-approved-rule"
+    }
+  ]
+}

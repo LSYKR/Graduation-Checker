@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://grad-compass.local/schemas/general-education-recognition-overlay.schema.json",
+  "title": "General education special recognition overlay",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "version", "status", "selector", "matchPolicy", "rules", "source", "verifiedAt", "notes"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "id": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["review", "verified-final"] },
+    "selector": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["universityId", "admissionYear", "departmentId"],
+      "properties": {
+        "universityId": { "type": "string", "minLength": 1 },
+        "admissionYear": { "type": "integer", "minimum": 1900 },
+        "departmentId": { "type": "string", "minLength": 1 },
+        "curriculumTrack": { "type": "string" }
+      }
+    },
+    "matchPolicy": { "const": "exact-course-code-only" },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "courseCode", "courseName", "credits", "targetAreaId", "mode", "categoryEffect", "acceptedTranscriptKinds", "evidence"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "courseCode": { "type": "string", "minLength": 1 },
+          "courseName": { "type": "string", "minLength": 1 },
+          "credits": { "type": "number", "minimum": 0 },
+          "targetAreaId": { "type": "string", "minLength": 1 },
+          "mode": { "enum": ["double-listed", "cross-institution"] },
+          "categoryEffect": { "const": "area-only" },
+          "acceptedTranscriptKinds": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "enum": ["completed", "transfer-recognized"] }
+          },
+          "sourceCategory": { "type": "string" },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["sourceId", "sheet", "cellRange", "note"],
+            "properties": {
+              "sourceId": { "type": "string", "minLength": 1 },
+              "sheet": { "type": "string", "minLength": 1 },
+              "cellRange": { "type": "string", "minLength": 1 },
+              "note": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "source": { "type": "object" },
+    "verifiedAt": { "type": "string", "format": "date" },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  }
+}

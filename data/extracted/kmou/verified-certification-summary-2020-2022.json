@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "appliesTo": "2020~2022학년도 신입생 및 동등학년 편입생",
+  "departmentLineage": "인공지능공학부/IT융합전공 계열",
+  "requirements": [
+    {
+      "id": "language-one-of",
+      "label": "공식 외국어 기준 중 1개 이상",
+      "kind": "language",
+      "acceptedValues": [
+        "TOEIC 600점",
+        "OPIc Novice High",
+        "TOEIC Speaking Lv.4",
+        "New TEPS 268점",
+        "TOEFL CBT 177점",
+        "TOEFL PBT 567점",
+        "TOEFL iBT 63점",
+        "JPT 500점",
+        "JLPT 3급",
+        "HSK 4급",
+        "한자능력검정시험 2급 이상"
+      ]
+    },
+    {
+      "id": "activity-volunteer",
+      "label": "사회봉사활동 30시간 이상",
+      "kind": "volunteer",
+      "minimum": 30,
+      "unit": "시간",
+      "oneOfGroup": "activity"
+    },
+    {
+      "id": "activity-internship",
+      "label": "전공선택 현장실습 Ⅰ·Ⅱ 또는 현장실습 중 1개 이상",
+      "kind": "internship",
+      "oneOfGroup": "activity"
+    },
+    {
+      "id": "activity-certificate",
+      "label": "산업기사 이상 국가기술자격 또는 인정 국제공인 자격 중 1개 이상",
+      "kind": "certificate",
+      "oneOfGroup": "activity"
+    }
+  ],
+  "sourceDocumentId": "kmou-2015-2022-graduation-certification",
+  "status": "verified-source-value-not-approved-rule"
+}

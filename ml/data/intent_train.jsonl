@@ -1,0 +1,12 @@
+{"input":"졸업 요건을 충족했는지 알려줘","output":"{\"intent\":\"audit\",\"tools\":[\"auditGraduation\",\"explainRequirement\"],\"needsOfficialEvidence\":true}"}
+{"input":"내가 지금 무엇이 부족해?","output":"{\"intent\":\"audit\",\"tools\":[\"auditGraduation\",\"explainRequirement\"],\"needsOfficialEvidence\":true}"}
+{"input":"전공필수 학점이 몇 학점 모자라?","output":"{\"intent\":\"audit\",\"tools\":[\"auditGraduation\",\"explainRequirement\"],\"needsOfficialEvidence\":true}"}
+{"input":"다음 학기 과목을 추천해줘","output":"{\"intent\":\"course-planning\",\"tools\":[\"auditGraduation\",\"recommendCourses\"],\"needsOfficialEvidence\":true}"}
+{"input":"금요일에 공강을 만들고 싶어","output":"{\"intent\":\"course-planning\",\"tools\":[\"auditGraduation\",\"recommendCourses\"],\"needsOfficialEvidence\":true}"}
+{"input":"필수과목 위주로 시간표를 짜줘","output":"{\"intent\":\"course-planning\",\"tools\":[\"auditGraduation\",\"recommendCourses\"],\"needsOfficialEvidence\":true}"}
+{"input":"편입생도 조기졸업할 수 있어?","output":"{\"intent\":\"early-graduation\",\"tools\":[\"explainRequirement\"],\"needsOfficialEvidence\":true}"}
+{"input":"졸업을 최대한 빨리 하고 싶어","output":"{\"intent\":\"early-graduation\",\"tools\":[\"explainRequirement\"],\"needsOfficialEvidence\":true}"}
+{"input":"토익 점수는 몇 점 필요해?","output":"{\"intent\":\"certification\",\"tools\":[\"checkCertification\",\"explainRequirement\"],\"needsOfficialEvidence\":true}"}
+{"input":"봉사시간이 얼마나 남았어?","output":"{\"intent\":\"certification\",\"tools\":[\"checkCertification\",\"explainRequirement\"],\"needsOfficialEvidence\":true}"}
+{"input":"정보처리기사 필기 합격도 인정돼?","output":"{\"intent\":\"certification\",\"tools\":[\"checkCertification\",\"explainRequirement\"],\"needsOfficialEvidence\":true}"}
+{"input":"현장실습으로 졸업인증을 대체할 수 있어?","output":"{\"intent\":\"certification\",\"tools\":[\"checkCertification\",\"explainRequirement\"],\"needsOfficialEvidence\":true}"}

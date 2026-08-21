@@ -1,0 +1,62 @@
+import type { AuditSnapshot } from "./types";
+
+export const demoAudit: AuditSnapshot = {
+  profile: {
+    admissionYear: 2022,
+    department: "컴퓨터공학과",
+    studentType: "편입생",
+  },
+  overallStatus: "evaluated",
+  earnedTotal: 133,
+  applicableEarnedTotal: 125,
+  requiredTotal: 140,
+  categories: [
+    { key: "generalRequired", label: "교양필수", shortLabel: "교필", earned: 24, required: 26, color: "#00a58e", evaluationStatus: "evaluated" },
+    { key: "generalElective", label: "교양선택", shortLabel: "교선", earned: 19, required: 17, color: "#6f7ef7", evaluationStatus: "evaluated" },
+    { key: "majorFoundation", label: "전공기초", shortLabel: "전기", earned: 16, required: 15, color: "#cf7b35", evaluationStatus: "evaluated" },
+    { key: "majorRequired", label: "전공필수", shortLabel: "전필", earned: 51, required: 60, color: "#173f63", evaluationStatus: "evaluated" },
+    { key: "majorElective", label: "전공선택", shortLabel: "전선", earned: 8, required: 12, color: "#a45ec6", evaluationStatus: "evaluated" },
+    { key: "freeElective", label: "일반선택", shortLabel: "일선", earned: 18, reportedEarned: 15, required: 10, color: "#718096", evaluationStatus: "evaluated" },
+  ],
+  residualCredits: {
+    policy: "residual-after-general-and-major",
+    status: "evaluated",
+    rawFreeElectiveCredits: 15,
+    verifiedSurplusCredits: 3,
+    transferredSurplusCredits: 3,
+    appliedSurplusCredits: 3,
+    effectiveFreeElectiveCredits: 18,
+    requiredFreeElectiveCredits: 10,
+    remainingFreeElectiveCredits: 0,
+    excessFreeElectiveCredits: 8,
+    minimumAllocatedCredits: 115,
+    reconciledKnownCredits: 133,
+    sources: [
+      { key: "generalElective", label: "교양선택", earned: 19, required: 17, surplusCredits: 2 },
+      { key: "majorFoundation", label: "전공기초", earned: 16, required: 15, surplusCredits: 1 },
+    ],
+    note: "직접 일반선택 15학점 + 교양·전공 최소기준 초과 3학점 = 판정 일반선택 18학점입니다.",
+  },
+  missingCourses: [
+    { code: "L1513", name: "기초확률및통계", credits: 2, category: "교양필수", priority: "필수" },
+    { code: "90537", name: "기초물리학실험", credits: 1, category: "전공기초", priority: "필수" },
+    { code: "51411", name: "컴퓨터구조론", credits: 3, category: "전공필수", priority: "필수" },
+    { code: "54943", name: "시퀀스제어및PLC프로그래밍", credits: 3, category: "전공필수", priority: "필수" },
+    {
+      code: "90585",
+      name: "인공지능및실습",
+      credits: 3,
+      category: "전공필수",
+      priority: "필수",
+      alternative: "55254 고급심층학습및응용",
+      note: "학과 대체 인정 확인 필요",
+    },
+    { code: "09233", name: "KMOU미래설계및상담 IV", credits: 0, category: "전공필수", priority: "필수" },
+  ],
+  certification: {
+    language: true,
+    activity: false,
+  },
+  ruleVersion: "KMOU-2022-CE-CURRICULUM-v1.7.0",
+  ruleStatus: "reviewed",
+};

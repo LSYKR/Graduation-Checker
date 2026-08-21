@@ -1,0 +1,998 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-15T21:00:00+09:00",
+  "universityId": "kmou",
+  "collegeId": "ocean-science-technology-convergence",
+  "collegeName": "해양과학기술융합대학",
+  "policy": "exact-university-year-program-key-and-fail-closed",
+  "catalog": {
+    "currentAcademicUnits": 13,
+    "stableProgramIdentities": 23,
+    "validYearProgramPairs": 152,
+    "years": {
+      "2020": 22,
+      "2021": 22,
+      "2022": 22,
+      "2023": 22,
+      "2024": 22,
+      "2025": 21,
+      "2026": 21
+    }
+  },
+  "operationalScope": {
+    "sourcePromotionGate": {
+      "registry": "major-curriculum-readiness-{2021,2022,2023,2024,2025,2026}.json",
+      "required": [
+        "exact admission year and program selector",
+        "official URL and local SHA-256",
+        "source table locator",
+        "course code, name, category and credits",
+        "duplicate code rejection",
+        "required-credit reconciliation for exact catalogs"
+      ],
+      "policy": "fail-closed"
+    },
+    "allPairs": [
+      "profile-onboarding",
+      "kmou-transcript-format-validation",
+      "transfer-recognized-row-detection",
+      "official-total-credit-audit",
+      "program-signature-gated-category-credit-audit",
+      "cross-program-mismatch-block"
+    ],
+    "exactDetailedPairs": [
+      {
+        "admissionYear": 2021,
+        "programId": "ship-ocean-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "ocean-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "energy-resources-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "marine-architecture-disaster-prevention",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "marine-spatial-design",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "ocean-environment-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "marine-biotechnology",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "fisheries-bioscience",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "marine-sports-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "mechanical-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "refrigeration-air-conditioning-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "marine-advanced-materials-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "electrical-electronics-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "electronic-communications-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "nano-semiconductor-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "radio-mobility-convergence-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "data-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "intelligent-control-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "computer-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "logistics-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "environmental-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2021,
+        "programId": "civil-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "ship-ocean-systems-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "ocean-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "energy-resources-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "marine-architecture-disaster-prevention",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "marine-spatial-design",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "ocean-environment-science",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "marine-biotechnology",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "fisheries-bioscience",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "marine-sports-science",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "mechanical-systems-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "refrigeration-air-conditioning-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "marine-advanced-materials-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "electrical-electronics-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "electronic-communications-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "nano-semiconductor-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "radio-mobility-convergence-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "data-science",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "intelligent-control-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "computer-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "logistics-systems-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "environmental-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2022,
+        "programId": "civil-engineering",
+        "requiredCourseSetStatus": "verified",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "verified-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "ship-ocean-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "ocean-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "energy-resources-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "marine-architecture-disaster-prevention",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "marine-spatial-design",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "ocean-environment-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "marine-biotechnology",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "fisheries-bioscience",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "marine-sports-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "mechanical-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "refrigeration-air-conditioning-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "marine-advanced-materials-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "electrical-electronics-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "electronic-communications-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "nano-semiconductor-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "radio-mobility-convergence-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "data-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "intelligent-control-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "computer-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "logistics-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "environmental-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2023,
+        "programId": "civil-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "ship-ocean-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "ocean-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "energy-resources-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "marine-architecture-disaster-prevention",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "marine-spatial-design",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "ocean-environment-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "marine-biotechnology",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "fisheries-bioscience",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "marine-sports-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "mechanical-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "refrigeration-air-conditioning-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "marine-advanced-materials-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "electrical-electronics-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "electronic-communications-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "nano-semiconductor-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "radio-mobility-convergence-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "data-science",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "intelligent-control-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "computer-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "logistics-systems-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "environmental-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      },
+      {
+        "admissionYear": 2024,
+        "programId": "civil-engineering",
+        "requiredCourseSetStatus": "review",
+        "additionalScopes": [
+          "verified-major-course-code-classification",
+          "provisional-major-required-course-audit",
+          "verified-major-elective-course-code-audit"
+        ]
+      }
+    ],
+    "exactCurrentClassificationPairs": [
+      {
+        "admissionYear": 2022,
+        "programId": "computer-engineering",
+        "scope": "major-foundation-and-required-course-code-audit"
+      }
+    ],
+    "verifiedRequiredCourseOverlays": [
+      {
+        "admissionYear": 2025,
+        "pairCount": 21,
+        "scope": "first-semester-major-course-code-classification-and-explicit-major-required-rows",
+        "completeness": "partial"
+      },
+      {
+        "admissionYear": 2026,
+        "pairCount": 21,
+        "scope": "first-semester-major-course-code-classification-and-explicit-major-required-rows",
+        "completeness": "partial"
+      }
+    ],
+    "blockedForPairsWithoutExactDetailedCatalog": [
+      "2020 detailed-required-course-audit",
+      "2025·2026 full-four-year detailed-required-course-audit (first-semester partial only)",
+      "course-substitution-audit without verified transition source",
+      "graduation-certification conclusion without verified certification evidence"
+    ]
+  },
+  "detailReviewBatches": [
+    {
+      "id": "digital",
+      "order": 1,
+      "label": "인공지능·전자전기정보"
+    },
+    {
+      "id": "ocean-development",
+      "order": 2,
+      "label": "조선·해양개발·건축·에너지"
+    },
+    {
+      "id": "ocean-science",
+      "order": 3,
+      "label": "해양과학·스포츠·신소재"
+    },
+    {
+      "id": "infrastructure",
+      "order": 4,
+      "label": "기계·물류·환경·토목"
+    }
+  ],
+  "officialSources": [
+    "kmou-2020-new-student-course-guide",
+    "kmou-2021-new-student-course-guide",
+    "kmou-2021-university-major-curriculum-table",
+    "kmou-2022-civil-engineering-new-student-required-courses",
+    "kmou-2022-computer-engineering-detailed-curriculum",
+    "kmou-2022-electronic-communications-engineering-detailed-curriculum",
+    "kmou-2022-environmental-engineering-credit-table",
+    "kmou-2022-environmental-engineering-new-student-required-courses",
+    "kmou-2022-intelligent-control-systems-engineering-detailed-curriculum",
+    "kmou-2022-marine-sports-science-new-student-required-courses",
+    "kmou-2022-new-student-course-guide",
+    "kmou-2022-radio-convergence-engineering-detailed-curriculum",
+    "kmou-2022-university-major-curriculum-table",
+    "kmou-2023-new-student-course-guide",
+    "kmou-2023-university-major-curriculum-table",
+    "kmou-2024-new-student-course-guide",
+    "kmou-2024-university-major-curriculum-table",
+    "kmou-2025-new-student-course-guide",
+    "kmou-2025-first-semester-required-courses",
+    "kmou-2026-new-student-course-guide",
+    "kmou-2026-first-semester-required-courses"
+  ]
+}

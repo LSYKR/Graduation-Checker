@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "1.0",
+  "version": "KMOU-2022-CE-CURRICULUM-v1.7.0",
+  "status": "provisional",
+  "key": {
+    "universityId": "kmou",
+    "admissionYear": 2022,
+    "departmentId": "computer-engineering"
+  },
+  "profileLabel": "한국해양대학교 2022 적용 교육과정 · 컴퓨터공학과 공통 졸업요건",
+  "assurance": {
+    "overall": "provisional",
+    "verifiedScopes": [
+      "해양과 문화 과목코드·최소학점",
+      "해양 스포츠와 예술 과목코드·최소학점",
+      "역사와 문화 과목코드·최소학점",
+      "사회와 경제 과목코드·최소학점",
+      "역사와 문화·사회와 경제 결합 최소학점",
+      "IT융합전공 이중설강·교차강의 과목코드 오버레이",
+      "2022 IT융합전공 전공기초·전공필수·전공선택 과목코드와 이수구분",
+      "2022 입학학년도 졸업요건 원본과 2024 전공분류 보조자료의 역할 격리",
+      "2024 컴퓨터공학전공 개설과목표의 성적표 이수구분 교차검증용 분류 스냅샷",
+      "개인 성적표 이수구분 보존과 선택전공 과목코드 지문 검증"
+    ],
+    "provisionalScopes": [
+      "총학점·비전공 영역별 학점",
+      "폐지·변경·대체 교과목",
+      "졸업인증",
+      "편입 인정학점 정책 오버레이"
+    ],
+    "warning": "졸업요건은 2022 적용 원본만 사용합니다. 2024 개설과목표는 개인 성적표의 이수구분 교차검증용 보조자료이며 2022 필수요건을 대체하지 않습니다. 학과 확인에 따라 자동제어와 고급심층학습및응용은 각각 대응 전공필수로 반영하며, 졸업인증은 최종 졸업사정 전 확인이 필요합니다."
+  },
+  "requiredTotal": 140,
+  "credits": [
+    {
+      "key": "generalRequired",
+      "label": "교양필수",
+      "shortLabel": "교필",
+      "required": 26,
+      "color": "#00a58e"
+    },
+    {
+      "key": "generalElective",
+      "label": "교양선택",
+      "shortLabel": "교선",
+      "required": 17,
+      "color": "#6f7ef7"
+    },
+    {
+      "key": "majorFoundation",
+      "label": "전공기초",
+      "shortLabel": "전기",
+      "required": 15,
+      "color": "#cf7b35"
+    },
+    {
+      "key": "majorRequired",
+      "label": "전공필수",
+      "shortLabel": "전필",
+      "required": 60,
+      "color": "#173f63"
+    },
+    {
+      "key": "majorElective",
+      "label": "전공선택",
+      "shortLabel": "전선",
+      "required": 12,
+      "color": "#a45ec6"
+    },
+    {
+      "key": "freeElective",
+      "label": "일반선택",
+      "shortLabel": "일선",
+      "required": 10,
+      "color": "#718096"
+    }
+  ],
+  "requiredCourses": [
+    {
+      "code": "L1513",
+      "name": "기초확률및통계",
+      "credits": 2,
+      "category": "교양필수",
+      "priority": "필수",
+      "note": "2022 IT융합전공 교양교육 이수체계의 기초수리 교양필수"
+    }
+  ],
+  "courseOverrides": [
+    {
+      "courseCode": "L1512",
+      "category": "generalRequired",
+      "reason": "2022 교육과정 교양필수 재분류"
+    },
+    {
+      "courseCode": "L1511",
+      "category": "generalRequired",
+      "reason": "2022 교육과정 교양필수 재분류"
+    },
+    {
+      "courseCode": "L1705",
+      "category": "generalRequired",
+      "reason": "2022 교육과정 교양필수 재분류"
+    },
+    {
+      "courseCode": "L1701",
+      "category": "generalRequired",
+      "reason": "2022 교육과정 교양필수 재분류"
+    },
+    {
+      "courseCode": "51177",
+      "category": "majorRequired",
+      "reason": "학과 확인: 자동제어는 자동제어Ⅰ 대체 전공필수로 인정"
+    },
+    {
+      "courseCode": "55249",
+      "category": "majorRequired",
+      "reason": "학과 확인: 고급심층학습및응용은 인공지능및실습 대체 전공필수로만 인정하고 전공선택에는 중복 합산하지 않음"
+    }
+  ],
+  "substitutions": [
+    {
+      "requiredCode": "51181",
+      "substituteCodes": ["51177"],
+      "requiresApproval": false,
+      "note": "학과 확인에 따라 자동제어(51177)를 자동제어Ⅰ(51181)의 대체 전공필수로 인정합니다."
+    },
+    {
+      "requiredCode": "90585",
+      "substituteCodes": ["55249"],
+      "requiresApproval": false,
+      "note": "학과 확인에 따라 고급심층학습및응용(55249)을 인공지능및실습(90585)의 대체 전공필수로 인정합니다. 해당 학점은 전공선택에 중복 합산하지 않습니다."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "language",
+      "label": "어학 인증",
+      "description": "TOEIC 600점 이상 등 학교 기준",
+      "required": true
+    },
+    {
+      "id": "activity",
+      "label": "활동·자격 인증",
+      "description": "봉사 30시간, 현장실습 또는 기사급 자격 중 하나",
+      "required": true
+    }
+  ],
+  "policies": [
+    "전공기초·전공필수·전공선택은 선택 전공의 과목코드 지문이 충분히 일치할 때 종합정보시스템 개인 성적표의 이수구분을 우선합니다.",
+    "졸업 편제학점과 필수 이수요건은 2022학년도 공식 교육과정 원본만 적용합니다.",
+    "2024 개설표는 개인 성적표의 전공 이수구분을 교차검증하는 보조자료일 뿐이며, 2022학번의 졸업요건이나 확정 미이수 목록을 바꾸지 않습니다.",
+    "자동제어(51177)는 자동제어Ⅰ(51181)의 대체 전공필수로 반영하고, 고급심층학습및응용(55249)은 인공지능및실습(90585)의 대체 전공필수로만 반영하여 전공선택에 중복 합산하지 않습니다.",
+    "사회·경제, 역사·문화, 해양 특성화교양은 공식 이수체계와 학년도별 교양교육과정표의 과목코드를 전수 대조하여 확정했습니다.",
+    "이중설강·교차강의는 2022 IT융합전공 상세 이수체계표에 명시된 코드만 별도 오버레이로 인정합니다.",
+    "폐지·변경·대체과목과 졸업인증 결과는 프로젝트 테스트용 임시 승인입니다.",
+    "학·석사 연계과정은 별도 지원 자격을 학과에 확인해야 합니다.",
+    "최종 졸업사정은 학사과 또는 학과사무실 확인이 필요합니다."
+  ],
+  "sources": [
+    {
+      "id": "kmou-2022-new-student-course-guide",
+      "documentId": "kmou-2022-new-student-course-guide",
+      "title": "2022학년도 교육과정표 · 인공지능공학부 IT융합전공 행",
+      "organization": "한국해양대학교 학사과",
+      "updatedAt": "2022. 2.",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=ebc85967f5098b5feff20c2ecd4ed44b",
+      "fileHash": "630fa6597fe252dc0055d660210894574cd31e481f4bfb46fc829d59c7f14675",
+      "role": "cohort-requirement",
+      "documentYear": 2022,
+      "appliesToAdmissionYears": [2022],
+      "appliesToDepartmentIds": ["computer-engineering"],
+      "documentScope": "program-row",
+      "evidenceScope": {
+        "departmentId": "computer-engineering",
+        "departmentName": "인공지능공학부 · IT융합전공(현 컴퓨터공학전공)",
+        "locator": "학부(과)별 졸업 이수학점표 · IT융합전공 행"
+      }
+    },
+    {
+      "id": "kmou-2022-general-education-course-catalog",
+      "documentId": "kmou-2022-general-education-course-catalog",
+      "title": "2022학년도 교양교육과정표와 학부(과)별 이수체계표",
+      "organization": "한국해양대학교 교양교육원",
+      "updatedAt": "2022. 2. 3.",
+      "url": "https://www.kmou.ac.kr/cle/na/ntt/selectNttInfo.do?mi=2539&nttSn=10310528",
+      "fileHash": "3629aefd5e5be0c8053d82121bd4799c273b719b613420b704f7b136aa7a9de3",
+      "role": "cohort-requirement",
+      "documentYear": 2022,
+      "appliesToAdmissionYears": [2022],
+      "documentScope": "university-wide"
+    },
+    {
+      "id": "kmou-2022-computer-engineering-detailed-curriculum",
+      "documentId": "kmou-2022-computer-engineering-detailed-curriculum",
+      "title": "2022학년도 IT융합전공 상세 교육과정표",
+      "organization": "한국해양대학교 인공지능공학부",
+      "updatedAt": "2022학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=25327f0e142f0b096955f1a3d01e58ee",
+      "fileHash": "f3a5f3fb947699d1062ae2b8d99d6ebb14b5b54d94f1acbbce5beff554d70501",
+      "role": "cohort-requirement",
+      "documentYear": 2022,
+      "appliesToAdmissionYears": [2022],
+      "appliesToDepartmentIds": ["computer-engineering"],
+      "documentScope": "department",
+      "evidenceScope": {
+        "departmentId": "computer-engineering",
+        "departmentName": "인공지능공학부 · IT융합전공(현 컴퓨터공학전공)",
+        "locator": "IT융합전공 상세 교육과정 시트"
+      }
+    },
+    {
+      "id": "kmou-2015-2022-graduation-certification",
+      "title": "졸업인증제 운영 지침",
+      "organization": "한국해양대학교 학사과",
+      "updatedAt": "2022. 8.",
+      "url": "https://www.kmou.ac.kr/ca/na/ntt/selectNttInfo.do?mi=781&nttSn=10314482",
+      "fileHash": "36c18f03e2d68325a6415fc933384a0bc3346cc9e50d5544a6a3e9e68e684b89",
+      "role": "multi-year-requirement",
+      "appliesToAdmissionYears": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022]
+    },
+    {
+      "id": "kmou-academic-operation-regulations-article-33",
+      "title": "한국해양대학교 학사운영규정 제33조(일반선택 이수학점)",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2018. 8. 31. 개정본",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=75f02a57ceca00179704d88dcb70c106",
+      "fileHash": "8dd14af05a471532db8d4cdb9892decee219257c59daa55d570551258e765cfa",
+      "documentVersionId": "kmou-academic-operation-regulations@8dd14af05a47",
+      "role": "university-policy",
+      "appliesToAdmissionYears": [2020, 2021, 2022, 2023, 2024, 2025, 2026]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-credit",
+      "sourceId": "kmou-2022-new-student-course-guide",
+      "title": "영역별 졸업학점",
+      "text": "2022 적용 교육과정 컴퓨터공학과의 공통 총 140학점과 영역별 최소학점을 확인한다.",
+      "keywords": [
+        "졸업학점",
+        "학점",
+        "교양",
+        "전공",
+        "부족"
+      ]
+    },
+    {
+      "id": "ev-required",
+      "sourceId": "kmou-2022-new-student-course-guide",
+      "title": "필수 교과목",
+      "text": "컴퓨터구조론, 시퀀스제어및PLC프로그래밍 등 필수 교과목의 이수 여부를 과목 코드로 판정한다.",
+      "keywords": [
+        "필수",
+        "과목",
+        "수강",
+        "추천",
+        "컴퓨터구조론"
+      ]
+    },
+    {
+      "id": "ev-general-education-areas",
+      "sourceId": "kmou-2022-general-education-course-catalog",
+      "title": "검증 완료한 교양 세부영역",
+      "text": "2022 컴퓨터공학전공은 해양과 문화 2학점, 해양 스포츠와 예술 2학점, 역사와 문화 4학점, 사회와 경제 4학점 이상을 이수하고 역사·사회 두 영역을 합해 9학점 이상 이수한다. 인정 교과목은 공식 교과목번호가 정확히 일치할 때만 합산한다.",
+      "keywords": [
+        "해양과 문화",
+        "해양 스포츠와 예술",
+        "역사와 문화",
+        "사회와 경제",
+        "교양 영역",
+        "과목코드"
+      ]
+    },
+    {
+      "id": "ev-general-education-special-recognition",
+      "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+      "title": "이중설강·교차강의 특수 인정",
+      "text": "2022 IT융합전공 학과별 이수체계표에 명시된 이중설강·교차강의는 대학·학번·학과 범위를 고정하고 공식 교과목번호가 정확히 일치할 때만 해당 교양 세부영역에 합산한다.",
+      "keywords": [
+        "이중설강",
+        "교차강의",
+        "동아시아의이해",
+        "31187",
+        "역사와 문화"
+      ]
+    },
+    {
+      "id": "ev-certification",
+      "sourceId": "kmou-2015-2022-graduation-certification",
+      "title": "졸업인증",
+      "text": "어학 기준과 함께 봉사, 현장실습 또는 기사급 자격 등 활동·자격 인증을 확인한다.",
+      "keywords": [
+        "토익",
+        "어학",
+        "봉사",
+        "자격증",
+        "기사",
+        "인증"
+      ]
+    },
+    {
+      "id": "ev-substitution",
+      "sourceId": "kmou-2022-new-student-course-guide",
+      "title": "확정 대체과목 적용",
+      "text": "학과 확인 내용을 운영 규칙에 반영해 자동제어는 자동제어Ⅰ의 전공필수로, 고급심층학습및응용은 인공지능및실습의 전공필수로 각각 한 번만 합산한다. 고급심층학습및응용 학점은 전공선택에 중복 합산하지 않는다.",
+      "keywords": [
+        "대체",
+        "인공지능",
+        "심층학습",
+        "중복 합산 방지"
+      ]
+    }
+  ],
+  "reviewedAt": "2026-08-06"
+}

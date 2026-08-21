@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "verifiedAt": "2026-08-06",
+  "universityId": "kmou",
+  "departmentId": "computer-engineering",
+  "decision": "verified-final",
+  "matchPolicy": "exact-course-code-only",
+  "method": [
+    "교양교육 이수체계의 컴퓨터공학전공 행과 각주를 입학학년도별로 시각·텍스트 대조",
+    "학년도별 교양교육과정표에서 해당 소영역의 교양선택 행을 과목코드 기준으로 전수 추출",
+    "추출 코드 집합과 운영 후보의 코드·과목명·학점 집합을 정렬 후 SHA-256으로 고정",
+    "교양필수 과목은 선택영역 인정 목록에서 제외하고 동일 코드의 영역 중복을 검사"
+  ],
+  "requirementSource": {
+    "documentId": "kmou-2018-2025-general-education-system",
+    "sha256": "c77358ba2449d558c3265746ed51e6c132dc86fee5b7d02debab376352fc4cfc",
+    "pagesByYear": {
+      "2020": 7,
+      "2021": 6,
+      "2022": 5,
+      "2023": 4,
+      "2024": 3,
+      "2025": 2
+    }
+  },
+  "requirementSource2026": {
+    "documentId": "kmou-2026-general-education-system",
+    "sha256": "ab2e1a45c518d361442b0eaff4c95b187286af852d25a6a78cb64b0d73438516",
+    "page": 27
+  },
+  "years": {
+    "2020": {
+      "minimumCredits": { "marine-culture": 2, "marine-sports-art": 2, "history-culture": 3, "social-economy": 3 },
+      "combinedMinimumCredits": 8,
+      "catalog": { "sha256": "0c5b94237311e4f3d8e784e64ac8f804a11cf84e84bc0fea4bbfe288f82bdd52", "format": "xlsx" },
+      "areas": {
+        "marine-culture": { "count": 21, "setSha256": "ca72cba00e29de2da552f5be78a282d48c9a08fcc8e35617500619287a007cf7" },
+        "marine-sports-art": { "count": 17, "setSha256": "6c158a1d1dfc8dea4c58d6bc93db50f2a20de46965b61682330f2fe124e25608" },
+        "history-culture": { "count": 32, "setSha256": "16acb1442c9f1f7e028acf9f7021a3e87d93ecf45e0bbd9caf02ea828b0c03fb" },
+        "social-economy": { "count": 43, "setSha256": "e1c229a49fd7316ac189a2b8d9d0b8c410efcdf94db55e4490953f8b86cdcb5a" }
+      }
+    },
+    "2021": {
+      "minimumCredits": { "marine-culture": 2, "marine-sports-art": 2, "history-culture": 4, "social-economy": 4 },
+      "combinedMinimumCredits": 9,
+      "catalog": { "sha256": "a2e478fff5ed4da7700294d961de087c27da17f114b095003b49fa23f496b706", "format": "xlsx" },
+      "areas": {
+        "marine-culture": { "count": 21, "setSha256": "2015bf85b13d404905a2f3bec2aa3f4c40b28fc786292346af994ea0ab4392a0" },
+        "marine-sports-art": { "count": 17, "setSha256": "d7c7cfc886a591647c836ccbfb07917f7def2742123b8a0e38b776e6d1197618" },
+        "history-culture": { "count": 36, "setSha256": "4bb24ee86beb09c6c94c394023d8268f44477749a282c5d3617615fbf84ad20c" },
+        "social-economy": { "count": 37, "setSha256": "36015a8b4f77fef2b9ea194a73652ee85a426e0c343820cce3b192fd8521c56c" }
+      }
+    },
+    "2022": {
+      "minimumCredits": { "marine-culture": 2, "marine-sports-art": 2, "history-culture": 4, "social-economy": 4 },
+      "combinedMinimumCredits": 9,
+      "catalog": { "sha256": "3629aefd5e5be0c8053d82121bd4799c273b719b613420b704f7b136aa7a9de3", "format": "pdf" },
+      "areas": {
+        "marine-culture": { "count": 19, "setSha256": "da9a7f5e7008df17175b3f64f6e3b15a5de8671b75ae3e8e4c760ce464c821b0" },
+        "marine-sports-art": { "count": 19, "setSha256": "e2491bcd90e69de28d8db20f8bf7cc39b7da919324e052383e65a0046b1a947c" },
+        "history-culture": { "count": 35, "setSha256": "95e5e6b35d880068a8098541c6c35fdf44d12b28358b66245034cedf9a3b93ee" },
+        "social-economy": { "count": 35, "setSha256": "b71d3796c9c5bb410ef3e837304e7ab26177d6d9ad4ce6ff10390c4590afc6fa" }
+      },
+      "verifiedNonTargetTranscriptCodes": ["L1102", "L1112", "L3229"],
+      "note": "세 코드는 2022 공식 교양교육과정표에 있으나 검증 대상 네 영역 밖의 기초교양 과목이다."
+    },
+    "2023": {
+      "minimumCredits": { "marine-culture": 2, "marine-sports-art": 2, "history-culture": 4, "social-economy": 4 },
+      "combinedMinimumCredits": 9,
+      "catalog": { "sha256": "b35ba8c7510b338d4b48bd5131eab5992157d5751234d17618762dc0c6960338", "format": "pdf" },
+      "areas": {
+        "marine-culture": { "count": 18, "setSha256": "40acfb0b90766ab7e00d3a87b613cb7c849a21b7dc0ea297f29c019e1a742c39" },
+        "marine-sports-art": { "count": 18, "setSha256": "0b138a80e67e91dcf2639d38618f44ae2d8918216b9f6eb8b0f762706af24b25" },
+        "history-culture": { "count": 37, "setSha256": "7229deeb34d3e902b7745d15c2c5a97713594b045dad7d0d4b77ca1c0f916c52" },
+        "social-economy": { "count": 41, "setSha256": "3d9cb16a9b3f1c8a0edf471a4f54259556eaae45be07785616acb701d8129212" }
+      }
+    },
+    "2024": {
+      "minimumCredits": { "marine-culture": 2, "marine-sports-art": 2, "history-culture": 4, "social-economy": 4 },
+      "combinedMinimumCredits": 9,
+      "catalog": { "sha256": "85b56a3ccdbaa41bda0cc8437da4d4c85d7a7794b4f72e34bd4a74a18a7f8635", "format": "pdf" },
+      "areas": {
+        "marine-culture": { "count": 19, "setSha256": "ff5206b91a150788ad6c02e82d1373e832249d012213c7847117ff4a873050f8" },
+        "marine-sports-art": { "count": 18, "setSha256": "0b138a80e67e91dcf2639d38618f44ae2d8918216b9f6eb8b0f762706af24b25" },
+        "history-culture": { "count": 37, "setSha256": "647c55a69fafa3e7cbf1914a7a9d3f7a1911fef8f66dfe2fe1f1beb9bdff4c2f" },
+        "social-economy": { "count": 42, "setSha256": "d01802ddd2dfffe829822f7a9dbac4b32ed3651df485c1742229ce735c0209e5" }
+      }
+    },
+    "2025": {
+      "minimumCredits": { "marine-basic": 2 },
+      "combinedMinimumCredits": null,
+      "catalog": { "sha256": "da3003226f8e0beda47f4b94282b1c2f9f1e2ac23bbe723bc348573092e23757", "format": "pdf" },
+      "areas": { "marine-basic": { "count": 25, "setSha256": "737b8526313987cd41b2f3ed35f4d1de8e3bae13cec3c9947c7ee7fc14fca034" } }
+    },
+    "2026": {
+      "minimumCredits": { "marine-basic": 2 },
+      "combinedMinimumCredits": null,
+      "catalog": { "sha256": "acaf931e6e04f7a887845f528f9a476aa1c2baf25bfc58146743995085d49012", "format": "pdf" },
+      "areas": { "marine-basic": { "count": 25, "setSha256": "737b8526313987cd41b2f3ed35f4d1de8e3bae13cec3c9947c7ee7fc14fca034" } }
+    }
+  },
+  "safety": {
+    "requiredRowsExcludedFromElectiveAreas": true,
+    "duplicateCourseCodesAcrossAreas": 0,
+    "unknownCourseCodePolicy": "needs-review",
+    "nameSimilarityPolicy": "never-auto-accept"
+  }
+}

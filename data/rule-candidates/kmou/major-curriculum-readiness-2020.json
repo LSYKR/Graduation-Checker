@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-15T18:30:00+09:00",
+  "universityId": "kmou",
+  "admissionYear": 2020,
+  "collegeId": "ocean-science-technology-convergence",
+  "promotionPolicy": {
+    "matchPolicy": "exact-course-code",
+    "requiredSourceFields": [
+      "official-url",
+      "local-sha256",
+      "admission-year",
+      "program-id",
+      "source-locator"
+    ],
+    "requiredCourseFields": [
+      "course-code",
+      "course-name",
+      "course-category",
+      "course-credits"
+    ],
+    "exactCatalogAdditionalChecks": [
+      "four-year-course-table",
+      "required-credit-reconciliation",
+      "duplicate-course-code-check",
+      "substitution-rules-reviewed-separately"
+    ],
+    "failClosed": true
+  },
+  "records": [
+    {
+      "programId": "ship-ocean-systems-engineering",
+      "status": "exact-catalog",
+      "courseCount": 57,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "ocean-engineering",
+      "status": "exact-catalog",
+      "courseCount": 56,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "energy-resources-engineering",
+      "status": "exact-catalog",
+      "courseCount": 56,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "marine-architecture-disaster-prevention",
+      "status": "exact-catalog",
+      "courseCount": 40,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "marine-spatial-design",
+      "status": "exact-catalog",
+      "courseCount": 42,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "ocean-environment-science",
+      "status": "exact-catalog",
+      "courseCount": 44,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "marine-biotechnology",
+      "status": "exact-catalog",
+      "courseCount": 43,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "fisheries-bioscience",
+      "status": "exact-catalog",
+      "courseCount": 45,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "marine-sports-science",
+      "status": "exact-catalog",
+      "courseCount": 50,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "mechanical-systems-engineering",
+      "status": "exact-catalog",
+      "courseCount": 57,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "refrigeration-air-conditioning-engineering",
+      "status": "exact-catalog",
+      "courseCount": 50,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "marine-advanced-materials-engineering",
+      "status": "exact-catalog",
+      "courseCount": 77,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "electrical-electronics-engineering",
+      "status": "exact-catalog",
+      "courseCount": 46,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "electronic-communications-engineering",
+      "status": "exact-catalog",
+      "courseCount": 48,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "nano-semiconductor-engineering",
+      "status": "exact-catalog",
+      "courseCount": 45,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "radio-mobility-convergence-engineering",
+      "status": "exact-catalog",
+      "courseCount": 53,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "data-science",
+      "status": "exact-catalog",
+      "courseCount": 49,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "intelligent-control-systems-engineering",
+      "status": "exact-catalog",
+      "courseCount": 49,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "computer-engineering",
+      "status": "exact-catalog",
+      "courseCount": 49,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "logistics-systems-engineering",
+      "status": "exact-catalog",
+      "courseCount": 56,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "environmental-engineering",
+      "status": "exact-catalog",
+      "courseCount": 61,
+      "requiredCourseSetStatus": "review"
+    },
+    {
+      "programId": "civil-engineering",
+      "status": "exact-catalog",
+      "courseCount": 72,
+      "requiredCourseSetStatus": "review"
+    }
+  ],
+  "reviewNotes": [
+    "2020학번 22개 전공은 학사과 공식 교육과정표의 과목번호·이수구분·학점과 로컬 SHA-256을 연결했습니다.",
+    "2020학년도 당시 해양과학기술대학·공과대학 구분과 각 전공의 PDF 쪽 범위를 함께 고정했습니다.",
+    "전공기초 과목 풀이 편제 요구학점보다 큰 경우 개별 미이수 확정 대신 영역 부족학점으로 표시합니다.",
+    "학과별 대체과목과 별도 필수이수 전공선택은 추가 공식자료 검수 전까지 확인 필요로 유지합니다."
+  ]
+}

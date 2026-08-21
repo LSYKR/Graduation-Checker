@@ -1,0 +1,597 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gradcompass.local/schemas/graduation-rule.schema.json",
+  "title": "GradCompass Shared Curriculum Graduation Rule Set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "version",
+    "status",
+    "selector",
+    "effectiveFrom",
+    "requiredTotalCredits",
+    "creditRequirements",
+    "requiredCourses",
+    "substitutions",
+    "categoryOverrides",
+    "generalEducationAreas",
+    "generalEducationCombinedRequirements",
+    "certifications",
+    "eligibilityRules",
+    "sources",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "review",
+        "approved",
+        "retired"
+      ]
+    },
+    "selector": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "universityId",
+        "admissionYear",
+        "departmentId"
+      ],
+      "properties": {
+        "universityId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "admissionYear": {
+          "type": "integer",
+          "minimum": 1900,
+          "maximum": 2200
+        },
+        "departmentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "curriculumTrack": {
+          "type": "string"
+        }
+      }
+    },
+    "effectiveFrom": {
+      "type": "string",
+      "format": "date"
+    },
+    "effectiveTo": {
+      "type": "string",
+      "format": "date"
+    },
+    "requiredTotalCredits": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "creditRequirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "label",
+          "shortLabel",
+          "minimum",
+          "color"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "shortLabel": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minimum": {
+            "type": "number",
+            "minimum": 0
+          },
+          "color": {
+            "type": "string",
+            "minLength": 1
+          },
+          "allowOverflow": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "requiredCourses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/courseRequirement"
+      }
+    },
+    "substitutions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "requiredCourseCode",
+          "substituteCourseCodes",
+          "approvalRequired"
+        ],
+        "properties": {
+          "requiredCourseCode": {
+            "type": "string",
+            "minLength": 1
+          },
+          "substituteCourseCodes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "approvalRequired": {
+            "type": "boolean"
+          },
+          "categoryOverride": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "categoryOverrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "courseCode",
+          "category",
+          "reason"
+        ],
+        "properties": {
+          "courseCode": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "kind"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "language",
+              "volunteer",
+              "certificate",
+              "internship",
+              "portfolio",
+              "other"
+            ]
+          },
+          "minimum": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "acceptedValues": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "oneOfGroup": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "eligibilityRules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "goal",
+          "eligibleStudentTypes"
+        ],
+        "properties": {
+          "goal": {
+            "enum": [
+              "regular",
+              "early",
+              "bachelor-master"
+            ]
+          },
+          "eligibleStudentTypes": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "freshman",
+                "transfer",
+                "international",
+                "exchange",
+                "other"
+              ]
+            }
+          },
+          "minimumGpa": {
+            "type": "number",
+            "minimum": 0
+          },
+          "minimumEarnedCredits": {
+            "type": "number",
+            "minimum": 0
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "organization",
+          "updatedAt",
+          "url"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "organization": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "publishedAt": {
+            "type": "string",
+            "format": "date"
+          },
+          "fileName": {
+            "type": "string"
+          },
+          "fileHash": {
+            "type": "string",
+            "minLength": 16
+          },
+          "documentVersionId": {
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "cohort-requirement",
+              "multi-year-requirement",
+              "university-policy",
+              "classification-reference"
+            ]
+          },
+          "documentYear": {
+            "type": "integer",
+            "minimum": 1900
+          },
+          "appliesToAdmissionYears": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1900
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approvedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "approvedBy": {
+      "type": "string"
+    },
+    "generalEducationAreas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "parentArea",
+          "minimumCredits",
+          "eligibleCourses",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "parentArea": {
+            "type": "string",
+            "minLength": 1
+          },
+          "creditCategory": {
+            "type": "string",
+            "enum": [
+              "generalRequired",
+              "generalElective"
+            ]
+          },
+          "minimumCredits": {
+            "type": "number",
+            "minimum": 0
+          },
+          "eligibleCourses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "code",
+                "name",
+                "credits",
+                "courseType"
+              ],
+              "properties": {
+                "code": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "credits": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "courseType": {
+                  "enum": [
+                    "required",
+                    "elective"
+                  ]
+                }
+              }
+            }
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "requirementSourceId"
+            ],
+            "properties": {
+              "requirementSourceId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "courseCatalogSourceId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "page": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "sheet": {
+                "type": "string"
+              },
+              "cellRange": {
+                "type": "string"
+              },
+              "matchPolicy": {
+                "enum": [
+                  "exact-course-code"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "generalEducationCombinedRequirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "label",
+          "areaIds",
+          "minimumCredits",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "areaIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "minimumCredits": {
+            "type": "number",
+            "minimum": 0
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "requirementSourceId"
+            ],
+            "properties": {
+              "requirementSourceId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "courseCatalogSourceId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "page": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "sheet": {
+                "type": "string"
+              },
+              "cellRange": {
+                "type": "string"
+              },
+              "matchPolicy": {
+                "enum": [
+                  "exact-course-code"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "courseRequirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "name",
+        "credits",
+        "category",
+        "priority"
+      ],
+      "properties": {
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "priority": {
+          "enum": [
+            "필수",
+            "권장"
+          ]
+        },
+        "alternative": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        },
+        "validFrom": {
+          "type": "string",
+          "format": "date"
+        },
+        "validTo": {
+          "type": "string",
+          "format": "date"
+        },
+        "appliesToStudentTypes": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "freshman",
+              "transfer",
+              "international",
+              "exchange",
+              "other"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "compositionModel": "shared-curriculum-rule-plus-recognized-credits",
+  "curriculumRuleSelector": {
+    "universityId": "kmou",
+    "curriculumYear": 2022,
+    "departmentId": "computer-engineering"
+  },
+  "studentContext": {
+    "studentType": "transfer",
+    "transferEntryYear": 2024,
+    "recognitionSemesterLabel": "편입생 인정학점"
+  },
+  "curriculumResolution": {
+    "policy": "same-grade-cohort-at-transfer",
+    "resolvedCurriculumYear": 2022,
+    "evidence": {
+      "sourceDocumentId": "kmou-2024-first-semester-course-handbook",
+      "pdfPages": [7, 13]
+    }
+  },
+  "creditRecognition": {
+    "maximumRecognizedFraction": 0.5,
+    "departmentReviewRequired": true,
+    "unmatchedCreditsMayBeRecognizedAs": "freeElective",
+    "missingRequiredCoursesMustBeCompleted": true,
+    "minimumHostSemesters": 4,
+    "earlyGraduationAllowed": false,
+    "evidence": {
+      "sourceDocumentId": "kmou-2024-transfer-admissions-guide",
+      "pdfPage": 18
+    }
+  },
+  "interpretation": {
+    "separateTransferGraduationRequirements": false,
+    "recognizedCoursesCountTowardSharedRequirements": true,
+    "unrecognizedRequiredCoursesRemainRequired": true,
+    "sharedCreditAndCertificationRequirementsRemainApplicable": true
+  },
+  "operationalGates": {
+    "singleTransferEntryYearRequiredForOverlay": true,
+    "approvedSharedCurriculumRuleRequired": true,
+    "approvedTransferOverlayRequiredForTransferRestrictions": true,
+    "individualRecognitionRowsRequired": true
+  },
+  "status": "verified-source-values-review-candidate-not-approved"
+}

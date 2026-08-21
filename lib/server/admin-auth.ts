@@ -1,0 +1,1 @@
+export function requireAdmin(request: Request): string { const email = request.headers.get("oai-authenticated-user-email") ?? "local-admin"; const allowed = (process.env.ADMIN_EMAILS ?? "").split(",").map((item) => item.trim().toLowerCase()).filter(Boolean); if (allowed.length && !allowed.includes(email.toLowerCase())) throw new Error("관리자 권한이 없습니다."); return email; }

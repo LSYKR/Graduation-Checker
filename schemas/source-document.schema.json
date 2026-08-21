@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gradcompass.local/schemas/source-document.schema.json",
+  "title": "GradCompass Source Document Version",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["universityId", "noticeUrl", "noticeTitle", "publishedAt", "attachmentUrl", "fileName", "mimeType", "fileHash", "byteSize"],
+  "properties": {
+    "universityId": { "type": "string" },
+    "noticeUrl": { "type": "string", "format": "uri" },
+    "noticeTitle": { "type": "string" },
+    "publishedAt": { "type": "string", "format": "date" },
+    "attachmentUrl": { "type": "string", "format": "uri" },
+    "fileName": { "type": "string" },
+    "mimeType": { "type": "string" },
+    "fileHash": { "type": "string", "minLength": 16 },
+    "byteSize": { "type": "integer", "minimum": 0 }
+  }
+}

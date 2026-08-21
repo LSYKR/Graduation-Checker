@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-15T17:30:00+09:00",
+  "universityId": "kmou",
+  "admissionYear": 2022,
+  "collegeId": "ocean-science-technology-convergence",
+  "promotionPolicy": {
+    "matchPolicy": "exact-course-code",
+    "requiredSourceFields": [
+      "official-url",
+      "local-sha256",
+      "admission-year",
+      "program-id",
+      "source-locator"
+    ],
+    "requiredCourseFields": [
+      "course-code",
+      "course-name",
+      "course-category",
+      "course-credits"
+    ],
+    "exactCatalogAdditionalChecks": [
+      "four-year-course-table",
+      "required-credit-reconciliation",
+      "duplicate-course-code-check",
+      "substitution-rules-reviewed-separately"
+    ],
+    "failClosed": true
+  },
+  "records": [
+    { "programId": "ship-ocean-systems-engineering", "status": "exact-catalog", "courseCount": 56, "requiredCourseSetStatus": "verified" },
+    { "programId": "ocean-engineering", "status": "exact-catalog", "courseCount": 53, "requiredCourseSetStatus": "verified" },
+    { "programId": "energy-resources-engineering", "status": "exact-catalog", "courseCount": 45, "requiredCourseSetStatus": "verified" },
+    { "programId": "marine-architecture-disaster-prevention", "status": "exact-catalog", "courseCount": 40, "requiredCourseSetStatus": "verified" },
+    { "programId": "marine-spatial-design", "status": "exact-catalog", "courseCount": 42, "requiredCourseSetStatus": "verified" },
+    { "programId": "ocean-environment-science", "status": "exact-catalog", "courseCount": 47, "requiredCourseSetStatus": "verified" },
+    { "programId": "marine-biotechnology", "status": "exact-catalog", "courseCount": 45, "requiredCourseSetStatus": "verified" },
+    { "programId": "fisheries-bioscience", "status": "exact-catalog", "courseCount": 46, "requiredCourseSetStatus": "verified" },
+    { "programId": "marine-sports-science", "status": "exact-catalog", "courseCount": 53, "requiredCourseSetStatus": "verified" },
+    { "programId": "mechanical-systems-engineering", "status": "exact-catalog", "courseCount": 55, "requiredCourseSetStatus": "verified" },
+    { "programId": "refrigeration-air-conditioning-engineering", "status": "exact-catalog", "courseCount": 45, "requiredCourseSetStatus": "verified" },
+    { "programId": "marine-advanced-materials-engineering", "status": "exact-catalog", "courseCount": 61, "requiredCourseSetStatus": "verified" },
+    { "programId": "electrical-electronics-engineering", "status": "exact-catalog", "courseCount": 51, "requiredCourseSetStatus": "verified" },
+    { "programId": "electronic-communications-engineering", "status": "exact-catalog", "courseCount": 44, "requiredCourseSetStatus": "verified" },
+    { "programId": "nano-semiconductor-engineering", "status": "exact-catalog", "courseCount": 50, "requiredCourseSetStatus": "verified" },
+    { "programId": "radio-mobility-convergence-engineering", "status": "exact-catalog", "courseCount": 47, "requiredCourseSetStatus": "verified" },
+    { "programId": "data-science", "status": "exact-catalog", "courseCount": 49, "requiredCourseSetStatus": "verified" },
+    { "programId": "intelligent-control-systems-engineering", "status": "exact-catalog", "courseCount": 48, "requiredCourseSetStatus": "review" },
+    { "programId": "computer-engineering", "status": "exact-catalog", "courseCount": 48, "requiredCourseSetStatus": "review" },
+    { "programId": "logistics-systems-engineering", "status": "exact-catalog", "courseCount": 56, "requiredCourseSetStatus": "verified" },
+    { "programId": "environmental-engineering", "status": "exact-catalog", "courseCount": 55, "requiredCourseSetStatus": "verified" },
+    { "programId": "civil-engineering", "status": "exact-catalog", "courseCount": 55, "requiredCourseSetStatus": "verified" }
+  ],
+  "reviewNotes": [
+    "2022학번 22개 전공은 학사과 공식 교육과정표의 과목번호·이수구분·학점과 로컬 SHA-256을 연결했습니다.",
+    "해양스포츠과학과 전공기초는 공식 과목 풀이 편제 요구학점보다 커 개별 미이수 확정 대신 영역 부족학점으로 표시합니다.",
+    "폐지·변경·대체과목은 전체 과목표와 별도의 검수 항목으로 유지합니다."
+  ]
+}

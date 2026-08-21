@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gradcompass.local/schemas/student-policy-overlay.schema.json",
+  "title": "GradCompass Student Policy Overlay",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "version",
+    "status",
+    "selector",
+    "curriculumResolution",
+    "creditRecognition",
+    "composition",
+    "sources",
+    "notes"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "status": { "enum": ["draft", "review", "approved", "retired"] },
+    "selector": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["universityId", "transferEntryYear", "studentType"],
+      "properties": {
+        "universityId": { "type": "string", "minLength": 1 },
+        "transferEntryYear": { "type": "integer", "minimum": 1900, "maximum": 2200 },
+        "studentType": { "const": "transfer" }
+      }
+    },
+    "curriculumResolution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["policy", "entryGrade", "resolvedCurriculumYear", "sourceDocumentId", "sourcePages"],
+      "properties": {
+        "policy": { "const": "same-grade-cohort-at-transfer" },
+        "entryGrade": { "type": "integer", "minimum": 1 },
+        "resolvedCurriculumYear": { "type": "integer", "minimum": 1900, "maximum": 2200 },
+        "sourceDocumentId": { "type": "string", "minLength": 1 },
+        "sourcePages": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "integer", "minimum": 1 } }
+      }
+    },
+    "creditRecognition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "semesterLabel",
+        "requiresSingleRecognitionYear",
+        "maximumRecognizedFraction",
+        "minimumHostSemesters",
+        "earlyGraduationAllowed",
+        "unmatchedCreditsMayBeRecognizedAs",
+        "missingRequiredCoursesMustBeCompleted",
+        "departmentReviewRequired",
+        "sourceDocumentId",
+        "sourcePages"
+      ],
+      "properties": {
+        "source": { "const": "transcript-recognized-rows" },
+        "semesterLabel": { "type": "string", "minLength": 1 },
+        "requiresSingleRecognitionYear": { "type": "boolean" },
+        "maximumRecognizedFraction": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 },
+        "minimumHostSemesters": { "type": "integer", "minimum": 1 },
+        "earlyGraduationAllowed": { "type": "boolean" },
+        "unmatchedCreditsMayBeRecognizedAs": { "const": "freeElective" },
+        "missingRequiredCoursesMustBeCompleted": { "type": "boolean" },
+        "departmentReviewRequired": { "type": "boolean" },
+        "sourceDocumentId": { "type": "string", "minLength": 1 },
+        "sourcePages": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "integer", "minimum": 1 } }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["graduationRuleSelector", "principle", "separateTransferGraduationRule"],
+      "properties": {
+        "graduationRuleSelector": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["universityId", "admissionYear", "departmentId"],
+          "properties": {
+            "universityId": { "type": "string", "minLength": 1 },
+            "admissionYear": { "type": "integer", "minimum": 1900, "maximum": 2200 },
+            "departmentId": { "type": "string", "minLength": 1 }
+          }
+        },
+        "principle": { "const": "shared-curriculum-rule-plus-recognized-credits" },
+        "separateTransferGraduationRule": { "const": false }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "organization", "updatedAt", "url", "fileHash", "documentVersionId"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "organization": { "type": "string", "minLength": 1 },
+          "updatedAt": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri" },
+          "fileHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "documentVersionId": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "notes": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+  }
+}
