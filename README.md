@@ -4,7 +4,7 @@
 
 입학년도·전공·성적표를 공식 교육과정과 대조해 **졸업 준비도, 부족 학점, 미이수 과목**을 보여주는 웹서비스입니다.
 
-[📘 상세 프로젝트 문서]([https://app.notion.com/p/In-Progress-3c30dab1221280678ea1f9d1f048e79e?source=copy_link]
+[📘 상세 프로젝트 문서]([https://app.notion.com/p/In-Progress-3c30dab1221280678ea1f9d1f048e79e?source=copy_link])
 
 ## 핵심 기능
 
