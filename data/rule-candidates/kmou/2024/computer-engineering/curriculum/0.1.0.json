@@ -1,0 +1,89 @@
+{
+  "id": "kmou-2024-computer-engineering-curriculum-candidate",
+  "version": "0.1.0",
+  "status": "review",
+  "selector": {
+    "universityId": "kmou",
+    "admissionYear": 2024,
+    "departmentId": "computer-engineering"
+  },
+  "effectiveFrom": "2024-03-01",
+  "requiredTotalCredits": 140,
+  "creditRequirements": [
+    {
+      "key": "generalRequired",
+      "label": "교양필수",
+      "shortLabel": "교필",
+      "minimum": 26,
+      "color": "var(--blue)"
+    },
+    {
+      "key": "generalElective",
+      "label": "교양선택",
+      "shortLabel": "교선",
+      "minimum": 17,
+      "color": "var(--violet)"
+    },
+    {
+      "key": "majorFoundation",
+      "label": "전공기초",
+      "shortLabel": "전기",
+      "minimum": 15,
+      "color": "var(--cyan)"
+    },
+    {
+      "key": "majorRequired",
+      "label": "전공필수",
+      "shortLabel": "전필",
+      "minimum": 60,
+      "color": "var(--green)"
+    },
+    {
+      "key": "majorElective",
+      "label": "전공선택",
+      "shortLabel": "전선",
+      "minimum": 12,
+      "color": "var(--amber)"
+    },
+    {
+      "key": "freeElective",
+      "label": "일반선택",
+      "shortLabel": "일선",
+      "minimum": 10,
+      "color": "var(--slate)"
+    }
+  ],
+  "requiredCourses": [],
+  "substitutions": [],
+  "categoryOverrides": [],
+  "certifications": [],
+  "eligibilityRules": [
+    {
+      "goal": "regular",
+      "eligibleStudentTypes": [
+        "freshman",
+        "transfer"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "kmou-2024-new-student-course-guide",
+      "title": "2024학년도 신입생 수강안내 편제학점표",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2024학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=1965cd5d03af675c7de4384c73c8cd94",
+      "fileName": "2024_official_curriculum.pdf",
+      "fileHash": "sha256:daf7798efa854eb0ea2eb9aeeef4cd4d51415aa3a818f406930f3310b2fb3fd9",
+      "documentVersionId": "kmou-2024-new-student-course-guide@daf7798efa85"
+    }
+  ],
+  "notes": [
+    "이 규칙은 해당 적용 교육과정의 공통 졸업요건이며 신입생과 편입생에게 동일하게 적용합니다.",
+    "공식 편제학점표의 '인공지능공학부 컴퓨터공학전공' 행에서 영역별 학점과 총 졸업학점만 검증한 후보입니다.",
+    "관리자 승인 전이며 운영 판정에 사용할 수 없습니다.",
+    "과목별 필수·대체과목·폐지과목·경과조치·개인별 적용 교육과정년도는 추가 검증이 필요합니다."
+  ],
+  "generalEducationAreas": [],
+  "generalEducationCombinedRequirements": []
+}

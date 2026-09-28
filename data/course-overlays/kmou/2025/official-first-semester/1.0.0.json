@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "kmou-2025-official-first-semester-major-course-overlay",
+  "version": "1.0.0",
+  "status": "verified",
+  "universityId": "kmou",
+  "admissionYear": 2025,
+  "scope": "first-semester-new-student-major-course-rows",
+  "matchPolicy": "exact-course-code",
+  "source": {
+    "documentId": "kmou-2025-first-semester-required-courses",
+    "title": "2025학년도 제1학기 신입생 수강신청 필요 교과목",
+    "organization": "국립한국해양대학교 학사과",
+    "updatedAt": "2025-02-17",
+    "noticeUrl": "https://www.kmou.ac.kr/ca/na/ntt/selectNttInfo.do?nttSn=10356554",
+    "attachmentUrl": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=72eeaa4d827bf66a5288ed44f86801fc",
+    "fileHash": "sha256:29cb3a5e15e558576c9ec8db9dc96fb001745b76f81ec0be9488d83908f6ce60"
+  },
+  "policy": "2025학년도 신입생 1학기 공식표의 전공기초·전공필수·전공선택 행은 해당 학번·전공의 교과목번호 분류에만 사용한다. 그중 전공필수로 명시된 행만 미이수 필수과목 대조에 사용하며, 이 자료를 4년 전체 전공표로 간주하지 않는다.",
+  "records": [
+    { "programId": "ship-ocean-systems-engineering", "displayName": "조선해양시스템공학부", "page": 1, "entries": [{ "code": "31269", "name": "공학설계입문", "category": "majorElective", "credits": 3 }] },
+    { "programId": "ocean-engineering", "displayName": "해양공학과", "page": 1, "entries": [{ "code": "50306", "name": "해양공학개론", "category": "majorFoundation", "credits": 3 }] },
+    { "programId": "energy-resources-engineering", "displayName": "에너지자원공학과", "page": 1, "entries": [] },
+    { "programId": "marine-architecture-engineering", "displayName": "해양건축공학과", "page": 1, "entries": [{ "code": "51881", "name": "디지털건축Ⅰ", "category": "majorFoundation", "credits": 3 }, { "code": "52873", "name": "건축표현", "category": "majorFoundation", "credits": 3 }, { "code": "55224", "name": "건축 물리와 화학", "category": "majorFoundation", "credits": 3 }] },
+    { "programId": "ocean-environment-science", "displayName": "해양과학융합학부 해양환경학전공", "page": 1, "entries": [] },
+    { "programId": "marine-biotechnology", "displayName": "해양과학융합학부 해양생물공학전공", "page": 2, "entries": [{ "code": "31735", "name": "해양자원의 탐색과 개발", "category": "majorFoundation", "credits": 3 }, { "code": "40670", "name": "수산생명과학", "category": "majorFoundation", "credits": 3 }] },
+    { "programId": "fisheries-bioscience", "displayName": "해양과학융합학부 수산바이오공학전공", "page": 2, "entries": [{ "code": "31735", "name": "해양자원의 탐색과 개발", "category": "majorFoundation", "credits": 3 }, { "code": "40670", "name": "수산생명과학", "category": "majorFoundation", "credits": 3 }] },
+    { "programId": "marine-sports-science", "displayName": "해양스포츠과학과", "page": 2, "entries": [{ "code": "90542", "name": "스포츠과학의이해", "category": "majorFoundation", "credits": 3 }, { "code": "60024", "name": "수영Ⅰ", "category": "majorFoundation", "credits": 2 }, { "code": "61136", "name": "스포츠철학사상사", "category": "majorElective", "credits": 3 }, { "code": "61149", "name": "패들스포츠", "category": "majorElective", "credits": 2 }] },
+    { "programId": "mechanical-systems-engineering", "displayName": "기계공학부 기계시스템공학전공", "page": 2, "entries": [{ "code": "55035", "name": "기계시스템공학개론", "category": "majorFoundation", "credits": 2 }] },
+    { "programId": "refrigeration-air-conditioning-engineering", "displayName": "기계공학부 냉동공조공학전공", "page": 2, "entries": [{ "code": "52562", "name": "냉동공조공학개론", "category": "majorFoundation", "credits": 2 }] },
+    { "programId": "marine-advanced-materials-engineering", "displayName": "해양신소재융합공학과", "page": 4, "entries": [] },
+    { "programId": "electrical-electronics-engineering", "displayName": "전자전기정보공학부 전기전자공학전공", "page": 2, "entries": [{ "code": "53371", "name": "공학개론", "category": "majorFoundation", "credits": 3 }] },
+    { "programId": "electronic-communications-engineering", "displayName": "전자전기정보공학부 전자정보통신공학전공", "page": 2, "entries": [{ "code": "55194", "name": "전자정보통신공학특강", "category": "majorElective", "credits": 2 }, { "code": "55195", "name": "IoT개론및사물제어실습", "category": "majorElective", "credits": 2 }] },
+    { "programId": "nano-semiconductor-engineering", "displayName": "전자전기정보공학부 나노반도체공학전공", "page": 3, "entries": [{ "code": "54986", "name": "반도체이해및실험", "category": "majorRequired", "credits": 3 }] },
+    { "programId": "radio-mobility-convergence-engineering", "displayName": "전자전기정보공학부 전파모빌리티융합공학전공", "page": 3, "entries": [] },
+    { "programId": "data-science", "displayName": "전자전기정보공학부 데이터사이언스전공", "page": 3, "entries": [{ "code": "55240", "name": "인공지능기초", "category": "majorFoundation", "credits": 3 }, { "code": "90608", "name": "4차산업혁명의데이터사이언스", "category": "majorFoundation", "credits": 3 }] },
+    { "programId": "intelligent-control-systems-engineering", "displayName": "인공지능공학부 지능제어시스템공학전공", "page": 3, "entries": [{ "code": "53371", "name": "공학개론", "category": "majorRequired", "credits": 3 }] },
+    { "programId": "computer-engineering", "displayName": "인공지능공학부 컴퓨터공학전공", "page": 3, "entries": [{ "code": "55260", "name": "컴퓨터공학개론", "category": "majorRequired", "credits": 3 }] },
+    { "programId": "logistics-systems-engineering", "displayName": "물류시스템공학과", "page": 4, "entries": [{ "code": "50102", "name": "해사개론", "category": "majorRequired", "credits": 3 }, { "code": "30011", "name": "물류개론", "category": "majorFoundation", "credits": 3 }, { "code": "31012", "name": "기업과경영", "category": "majorFoundation", "credits": 3 }, { "code": "70242", "name": "TOEICⅠ", "category": "majorFoundation", "credits": 2 }] },
+    { "programId": "environmental-engineering", "displayName": "환경공학과", "page": 4, "entries": [{ "code": "50363", "name": "환경공학개론", "category": "majorRequired", "credits": 3 }, { "code": "40595", "name": "일반생물학", "category": "majorFoundation", "credits": 2 }] },
+    { "programId": "civil-engineering", "displayName": "토목공학과", "page": 4, "entries": [{ "code": "55262", "name": "토목전산입문", "category": "majorFoundation", "credits": 2 }] }
+  ]
+}

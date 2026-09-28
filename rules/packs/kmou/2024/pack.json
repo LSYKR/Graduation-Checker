@@ -1,0 +1,429 @@
+{
+  "schemaVersion": "1.0",
+  "universityId": "kmou",
+  "admissionYear": 2024,
+  "basis": "official",
+  "status": "active",
+  "offerings": [
+    {
+      "programId": "ship-ocean-systems-engineering",
+      "displayName": "조선해양시스템공학부 · 조선해양시스템공학전공",
+      "currentUnit": "조선해양시스템공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-development",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 23,
+        "majorFoundation": 12,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 45,
+        "advancedMajorElective": 30,
+        "advancedMajorRequired": 0,
+        "freeElective": 13,
+        "total": 140
+      }
+    },
+    {
+      "programId": "ocean-engineering",
+      "displayName": "해양공학과",
+      "currentUnit": "해양공학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-development",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 25,
+        "majorFoundation": 8,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 42,
+        "advancedMajorElective": 36,
+        "advancedMajorRequired": 0,
+        "freeElective": 12,
+        "total": 140
+      }
+    },
+    {
+      "programId": "energy-resources-engineering",
+      "displayName": "에너지자원공학과",
+      "currentUnit": "에너지자원공학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-development",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 27,
+        "majorFoundation": 20,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 42,
+        "advancedMajorElective": 13,
+        "advancedMajorRequired": 6,
+        "freeElective": 15,
+        "total": 140
+      }
+    },
+    {
+      "programId": "marine-architecture-disaster-prevention",
+      "displayName": "해양공간건축학부 · 건축방재공학전공",
+      "currentUnit": "해양건축공학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-development",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 21,
+        "majorFoundation": 18,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 42,
+        "advancedMajorElective": 30,
+        "advancedMajorRequired": 0,
+        "freeElective": 12,
+        "total": 140
+      }
+    },
+    {
+      "programId": "marine-spatial-design",
+      "displayName": "해양공간건축학부 · 공간디자인전공",
+      "currentUnit": "해양건축공학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-development",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 21,
+        "majorFoundation": 18,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 42,
+        "advancedMajorElective": 30,
+        "advancedMajorRequired": 0,
+        "freeElective": 12,
+        "total": 140
+      }
+    },
+    {
+      "programId": "ocean-environment-science",
+      "displayName": "해양과학융합학부 · 해양환경학전공",
+      "currentUnit": "해양과학융합학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-science",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 24,
+        "majorFoundation": 9,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 45,
+        "advancedMajorElective": 30,
+        "advancedMajorRequired": 0,
+        "freeElective": 15,
+        "total": 140
+      }
+    },
+    {
+      "programId": "marine-biotechnology",
+      "displayName": "해양과학융합학부 · 해양생물공학전공",
+      "currentUnit": "해양과학융합학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-science",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 19,
+        "generalRequired": 21,
+        "majorFoundation": 9,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 44,
+        "advancedMajorElective": 18,
+        "advancedMajorRequired": 0,
+        "freeElective": 19,
+        "total": 130
+      }
+    },
+    {
+      "programId": "fisheries-bioscience",
+      "displayName": "해양과학융합학부 · 수산바이오공학전공",
+      "currentUnit": "해양과학융합학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-science",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 19,
+        "generalRequired": 21,
+        "majorFoundation": 9,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 44,
+        "advancedMajorElective": 21,
+        "advancedMajorRequired": 0,
+        "freeElective": 16,
+        "total": 130
+      }
+    },
+    {
+      "programId": "marine-sports-science",
+      "displayName": "해양스포츠과학과",
+      "currentUnit": "해양스포츠과학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-science",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 23,
+        "generalRequired": 11,
+        "majorFoundation": 9,
+        "minimumMajorElective": 10,
+        "minimumMajorRequired": 34,
+        "advancedMajorElective": 35,
+        "advancedMajorRequired": 0,
+        "freeElective": 8,
+        "total": 130
+      }
+    },
+    {
+      "programId": "mechanical-systems-engineering",
+      "displayName": "기계공학부 · 기계시스템공학전공",
+      "currentUnit": "기계공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "infrastructure",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 26,
+        "majorFoundation": 13,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 44,
+        "advancedMajorElective": 29,
+        "advancedMajorRequired": 0,
+        "freeElective": 11,
+        "total": 140
+      }
+    },
+    {
+      "programId": "refrigeration-air-conditioning-engineering",
+      "displayName": "기계공학부 · 냉동공조공학전공",
+      "currentUnit": "기계공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "infrastructure",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 27,
+        "majorFoundation": 13,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 49,
+        "advancedMajorElective": 24,
+        "advancedMajorRequired": 0,
+        "freeElective": 10,
+        "total": 140
+      }
+    },
+    {
+      "programId": "marine-advanced-materials-engineering",
+      "displayName": "해양신소재융합공학과",
+      "currentUnit": "해양신소재융합공학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "ocean-science",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 24,
+        "majorFoundation": 16,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 55,
+        "advancedMajorElective": 17,
+        "advancedMajorRequired": 0,
+        "freeElective": 11,
+        "total": 140
+      }
+    },
+    {
+      "programId": "electrical-electronics-engineering",
+      "displayName": "전자전기정보공학부 · 전기전자공학전공",
+      "currentUnit": "전자전기정보공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "digital",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 27,
+        "majorFoundation": 15,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 56,
+        "advancedMajorElective": 14,
+        "advancedMajorRequired": 0,
+        "freeElective": 11,
+        "total": 140
+      }
+    },
+    {
+      "programId": "electronic-communications-engineering",
+      "displayName": "전자전기정보공학부 · 전자정보통신공학전공",
+      "currentUnit": "전자전기정보공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "digital",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 27,
+        "majorFoundation": 12,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 58,
+        "advancedMajorElective": 9,
+        "advancedMajorRequired": 6,
+        "freeElective": 11,
+        "total": 140
+      }
+    },
+    {
+      "programId": "nano-semiconductor-engineering",
+      "displayName": "전자전기정보공학부 · 나노반도체공학전공",
+      "currentUnit": "전자전기정보공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "digital",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 27,
+        "majorFoundation": 9,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 56,
+        "advancedMajorElective": 14,
+        "advancedMajorRequired": 0,
+        "freeElective": 17,
+        "total": 140
+      }
+    },
+    {
+      "programId": "radio-mobility-convergence-engineering",
+      "displayName": "전자전기정보공학부 · 전파융합공학전공",
+      "currentUnit": "전자전기정보공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "digital",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 27,
+        "majorFoundation": 18,
+        "minimumMajorElective": 9,
+        "minimumMajorRequired": 60,
+        "advancedMajorElective": 4,
+        "advancedMajorRequired": 0,
+        "freeElective": 5,
+        "total": 140
+      }
+    },
+    {
+      "programId": "data-science",
+      "displayName": "전자전기정보공학부 · 데이터사이언스전공",
+      "currentUnit": "전자전기정보공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "digital",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 24,
+        "majorFoundation": 20,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 46,
+        "advancedMajorElective": 24,
+        "advancedMajorRequired": 0,
+        "freeElective": 9,
+        "total": 140
+      }
+    },
+    {
+      "programId": "intelligent-control-systems-engineering",
+      "displayName": "인공지능공학부 · 지능제어시스템공학전공",
+      "currentUnit": "인공지능공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "digital",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 26,
+        "majorFoundation": 12,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 61,
+        "advancedMajorElective": 11,
+        "advancedMajorRequired": 0,
+        "freeElective": 13,
+        "total": 140
+      }
+    },
+    {
+      "programId": "computer-engineering",
+      "displayName": "인공지능공학부 · 컴퓨터공학전공",
+      "currentUnit": "인공지능공학부",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "digital",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 26,
+        "majorFoundation": 15,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 60,
+        "advancedMajorElective": 12,
+        "advancedMajorRequired": 0,
+        "freeElective": 10,
+        "total": 140
+      }
+    },
+    {
+      "programId": "logistics-systems-engineering",
+      "displayName": "물류시스템공학과",
+      "currentUnit": "물류시스템공학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "infrastructure",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 21,
+        "majorFoundation": 14,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 42,
+        "advancedMajorElective": 24,
+        "advancedMajorRequired": 4,
+        "freeElective": 8,
+        "total": 130
+      }
+    },
+    {
+      "programId": "environmental-engineering",
+      "displayName": "환경공학과",
+      "currentUnit": "환경공학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "infrastructure",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 30,
+        "majorFoundation": 22,
+        "minimumMajorElective": 5,
+        "minimumMajorRequired": 37,
+        "advancedMajorElective": 18,
+        "advancedMajorRequired": 0,
+        "freeElective": 11,
+        "total": 140
+      }
+    },
+    {
+      "programId": "civil-engineering",
+      "displayName": "토목공학과",
+      "currentUnit": "토목공학과",
+      "curriculumCollegeName": "해양과학기술융합대학",
+      "batch": "infrastructure",
+      "support": "detailed-provisional",
+      "creditSummary": {
+        "generalElective": 17,
+        "generalRequired": 30,
+        "majorFoundation": 17,
+        "minimumMajorElective": 0,
+        "minimumMajorRequired": 55,
+        "advancedMajorElective": 8,
+        "advancedMajorRequired": 6,
+        "freeElective": 7,
+        "total": 140
+      }
+    }
+  ],
+  "operationalRules": [],
+  "legacyCatalog": true
+}

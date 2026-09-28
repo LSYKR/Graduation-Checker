@@ -1,0 +1,40 @@
+{
+  "name": "kmou-grad-check",
+  "displayName": "KMOU 졸업나침반",
+  "version": "0.39.0-alpha.1",
+  "private": true,
+  "engines": {
+    "node": ">=24.18.0 <25"
+  },
+  "scripts": {
+    "test": "node --import ./scripts/test-register.mjs --test --test-isolation=none tests/*.test.ts",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "node scripts/start-local.mjs",
+    "typecheck": "tsc --noEmit",
+    "rules:scaffold": "node scripts/rule-pack.mjs scaffold",
+    "rules:validate": "node scripts/rule-pack.mjs validate",
+    "rules:sync": "node scripts/rule-pack.mjs sync",
+    "rules:check": "node scripts/rule-pack.mjs validate && node scripts/rule-pack.mjs sync --check"
+  },
+  "dependencies": {
+    "@next/env": "16.3.5",
+    "lucide-react": "^0.468.0",
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3"
+  },
+  "type": "module",
+  "overrides": {
+    "image-size": "2.0.4"
+  }
+}

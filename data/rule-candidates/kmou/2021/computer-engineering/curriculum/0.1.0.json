@@ -1,0 +1,128 @@
+{
+  "id": "kmou-2021-computer-engineering-curriculum-candidate",
+  "version": "0.1.0",
+  "status": "review",
+  "selector": {
+    "universityId": "kmou",
+    "admissionYear": 2021,
+    "departmentId": "computer-engineering"
+  },
+  "effectiveFrom": "2021-03-01",
+  "requiredTotalCredits": 140,
+  "creditRequirements": [
+    {
+      "key": "generalRequired",
+      "label": "교양필수",
+      "shortLabel": "교필",
+      "minimum": 26,
+      "color": "var(--blue)"
+    },
+    {
+      "key": "generalElective",
+      "label": "교양선택",
+      "shortLabel": "교선",
+      "minimum": 17,
+      "color": "var(--violet)"
+    },
+    {
+      "key": "majorFoundation",
+      "label": "전공기초",
+      "shortLabel": "전기",
+      "minimum": 15,
+      "color": "var(--cyan)"
+    },
+    {
+      "key": "majorRequired",
+      "label": "전공필수",
+      "shortLabel": "전필",
+      "minimum": 60,
+      "color": "var(--green)"
+    },
+    {
+      "key": "majorElective",
+      "label": "전공선택",
+      "shortLabel": "전선",
+      "minimum": 12,
+      "color": "var(--amber)"
+    },
+    {
+      "key": "freeElective",
+      "label": "일반선택",
+      "shortLabel": "일선",
+      "minimum": 10,
+      "color": "var(--slate)"
+    }
+  ],
+  "requiredCourses": [],
+  "substitutions": [],
+  "categoryOverrides": [],
+  "certifications": [
+    {
+      "id": "language-one-of",
+      "label": "공식 외국어 기준 중 1개 이상",
+      "kind": "language",
+      "acceptedValues": [
+        "TOEIC 600점",
+        "OPIc Novice High",
+        "TOEIC Speaking Lv.4",
+        "New TEPS 268점",
+        "TOEFL CBT 177점",
+        "TOEFL PBT 567점",
+        "TOEFL iBT 63점",
+        "JPT 500점",
+        "JLPT 3급",
+        "HSK 4급",
+        "한자능력검정시험 2급 이상"
+      ]
+    },
+    {
+      "id": "activity-volunteer",
+      "label": "사회봉사활동 30시간 이상",
+      "kind": "volunteer",
+      "minimum": 30,
+      "unit": "시간",
+      "oneOfGroup": "activity"
+    },
+    {
+      "id": "activity-internship",
+      "label": "전공선택 현장실습 Ⅰ·Ⅱ 또는 현장실습 중 1개 이상",
+      "kind": "internship",
+      "oneOfGroup": "activity"
+    },
+    {
+      "id": "activity-certificate",
+      "label": "산업기사 이상 국가기술자격 또는 인정 국제공인 자격 중 1개 이상",
+      "kind": "certificate",
+      "oneOfGroup": "activity"
+    }
+  ],
+  "eligibilityRules": [
+    {
+      "goal": "regular",
+      "eligibleStudentTypes": [
+        "freshman",
+        "transfer"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "kmou-2021-new-student-course-guide",
+      "title": "2021학년도 신입생 수강안내 편제학점표",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2021학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=7d20bf835ce72b4f63b4a32b9eb6759b",
+      "fileName": "2021_official_curriculum.pdf",
+      "fileHash": "sha256:e514659ddfcf7ee20a30be73380dc8f2baaf98de78b13f8a151ec31a03550198",
+      "documentVersionId": "kmou-2021-new-student-course-guide@e514659ddfcf"
+    }
+  ],
+  "notes": [
+    "이 규칙은 해당 적용 교육과정의 공통 졸업요건이며 신입생과 편입생에게 동일하게 적용합니다.",
+    "공식 편제학점표의 '제어자동화공학부 IT융합전공' 행에서 영역별 학점과 총 졸업학점만 검증한 후보입니다.",
+    "관리자 승인 전이며 운영 판정에 사용할 수 없습니다.",
+    "과목별 필수·대체과목·폐지과목·경과조치·개인별 적용 교육과정년도는 추가 검증이 필요합니다."
+  ],
+  "generalEducationAreas": [],
+  "generalEducationCombinedRequirements": []
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-15T21:00:00+09:00",
+  "universityId": "kmou",
+  "admissionYear": 2026,
+  "collegeId": "ocean-science-technology-convergence",
+  "sourceScope": "official-first-semester-new-student-major-course-rows",
+  "promotionPolicy": { "matchPolicy": "exact-course-code", "fullCatalogRequiredForExactStatus": true, "failClosed": true },
+  "records": [
+    { "programId": "ship-ocean-systems-engineering", "status": "partial-required-courses", "courseCount": 0, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "ocean-engineering", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "energy-resources-engineering", "status": "partial-required-courses", "courseCount": 0, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "marine-architecture-engineering", "status": "partial-required-courses", "courseCount": 3, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "ocean-environment-science", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "marine-biotechnology", "status": "partial-required-courses", "courseCount": 2, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "fisheries-bioscience", "status": "partial-required-courses", "courseCount": 2, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "marine-sports-science", "status": "partial-required-courses", "courseCount": 4, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "mechanical-systems-engineering", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "refrigeration-air-conditioning-engineering", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "marine-advanced-materials-engineering", "status": "partial-required-courses", "courseCount": 0, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "electrical-electronics-engineering", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "electronic-communications-engineering", "status": "partial-required-courses", "courseCount": 2, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "nano-semiconductor-engineering", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 1, "requiredCourseSetStatus": "review" },
+    { "programId": "radio-mobility-convergence-engineering", "status": "partial-required-courses", "courseCount": 0, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "data-science", "status": "partial-required-courses", "courseCount": 2, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" },
+    { "programId": "intelligent-control-systems-engineering", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 1, "requiredCourseSetStatus": "review" },
+    { "programId": "computer-engineering", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 1, "requiredCourseSetStatus": "review" },
+    { "programId": "logistics-systems-engineering", "status": "partial-required-courses", "courseCount": 4, "requiredCourseCount": 1, "requiredCourseSetStatus": "review" },
+    { "programId": "environmental-engineering", "status": "partial-required-courses", "courseCount": 2, "requiredCourseCount": 1, "requiredCourseSetStatus": "review" },
+    { "programId": "civil-engineering", "status": "partial-required-courses", "courseCount": 1, "requiredCourseCount": 0, "requiredCourseSetStatus": "review" }
+  ]
+}

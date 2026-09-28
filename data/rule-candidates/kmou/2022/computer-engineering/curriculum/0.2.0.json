@@ -1,0 +1,1183 @@
+{
+  "id": "kmou-2022-computer-engineering-curriculum-candidate",
+  "version": "0.2.0",
+  "status": "review",
+  "selector": {
+    "universityId": "kmou",
+    "admissionYear": 2022,
+    "departmentId": "computer-engineering"
+  },
+  "effectiveFrom": "2022-03-01",
+  "requiredTotalCredits": 140,
+  "creditRequirements": [
+    {
+      "key": "generalRequired",
+      "label": "교양필수",
+      "shortLabel": "교필",
+      "minimum": 26,
+      "color": "var(--blue)"
+    },
+    {
+      "key": "generalElective",
+      "label": "교양선택",
+      "shortLabel": "교선",
+      "minimum": 17,
+      "color": "var(--violet)"
+    },
+    {
+      "key": "majorFoundation",
+      "label": "전공기초",
+      "shortLabel": "전기",
+      "minimum": 15,
+      "color": "var(--cyan)"
+    },
+    {
+      "key": "majorRequired",
+      "label": "전공필수",
+      "shortLabel": "전필",
+      "minimum": 60,
+      "color": "var(--green)"
+    },
+    {
+      "key": "majorElective",
+      "label": "전공선택",
+      "shortLabel": "전선",
+      "minimum": 12,
+      "color": "var(--amber)"
+    },
+    {
+      "key": "freeElective",
+      "label": "일반선택",
+      "shortLabel": "일선",
+      "minimum": 10,
+      "color": "var(--slate)"
+    }
+  ],
+  "requiredCourses": [
+    {
+      "code": "09230",
+      "name": "KMOU미래설계및상담Ⅰ",
+      "credits": 0,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "09231",
+      "name": "KMOU미래설계및상담Ⅱ",
+      "credits": 0,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L0002",
+      "name": "대학생을위한글쓰기",
+      "credits": 2,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L0004",
+      "name": "KMOU EnglishⅠ",
+      "credits": 2,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L1313",
+      "name": "컴퓨터프로그래밍및실습",
+      "credits": 3,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L1511",
+      "name": "공업수학",
+      "credits": 3,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L1505",
+      "name": "미적분학",
+      "credits": 3,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L1513",
+      "name": "기초확률및통계",
+      "credits": 2,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L1512",
+      "name": "선형대수학",
+      "credits": 3,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L3413",
+      "name": "RC Idea Factory",
+      "credits": 1,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L1701",
+      "name": "물리의이해",
+      "credits": 2,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L4109",
+      "name": "앵커스피릿",
+      "credits": 2,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "L1705",
+      "name": "실험을통한물리의활용",
+      "credits": 1,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "53581",
+      "name": "컴퓨터언어및실습 II",
+      "credits": 3,
+      "category": "majorFoundation",
+      "priority": "필수"
+    },
+    {
+      "code": "L2028",
+      "name": "Let's Be 해대인",
+      "credits": 2,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "90536",
+      "name": "기초물리학",
+      "credits": 2,
+      "category": "majorFoundation",
+      "priority": "필수"
+    },
+    {
+      "code": "90537",
+      "name": "기초물리학실험",
+      "credits": 1,
+      "category": "majorFoundation",
+      "priority": "필수"
+    },
+    {
+      "code": "53371",
+      "name": "공학개론",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "51480",
+      "name": "회로이론",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "09232",
+      "name": "KMOU미래설계및상담Ⅲ",
+      "credits": 0,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "09233",
+      "name": "KMOU미래설계및상담Ⅳ",
+      "credits": 0,
+      "category": "generalRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "53531",
+      "name": "전자회로및실험I",
+      "credits": 3,
+      "category": "majorFoundation",
+      "priority": "필수"
+    },
+    {
+      "code": "53532",
+      "name": "전자회로및실험Ⅱ",
+      "credits": 3,
+      "category": "majorFoundation",
+      "priority": "필수"
+    },
+    {
+      "code": "51181",
+      "name": "자동제어 I",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "53535",
+      "name": "컴퓨터언어및실습Ⅲ",
+      "credits": 3,
+      "category": "majorFoundation",
+      "priority": "필수"
+    },
+    {
+      "code": "52127",
+      "name": "디지털회로및실습",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "51411",
+      "name": "컴퓨터구조론",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "54936",
+      "name": "인공지능코딩기초및실습",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "54621",
+      "name": "Adventure Design",
+      "credits": 2,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "54937",
+      "name": "자료구조및실습",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "54943",
+      "name": "시퀀스제어및PLC프로그래밍",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "51000",
+      "name": "계측공학",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "51464",
+      "name": "현대제어",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "51189",
+      "name": "자동제어실험",
+      "credits": 2,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "51554",
+      "name": "디지털신호처리",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "51627",
+      "name": "로봇공학",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "51961",
+      "name": "센서공학",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "54938",
+      "name": "임베디드코딩및실습",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "53367",
+      "name": "캡스톤디자인Ⅰ",
+      "credits": 2,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "90583",
+      "name": "지능제어및실습",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "52264",
+      "name": "계측공학실험",
+      "credits": 2,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "53368",
+      "name": "캡스톤디자인Ⅱ",
+      "credits": 2,
+      "category": "majorRequired",
+      "priority": "필수"
+    },
+    {
+      "code": "90584",
+      "name": "영상처리및실습",
+      "credits": 3,
+      "category": "majorRequired",
+      "priority": "필수"
+    }
+  ],
+  "substitutions": [],
+  "categoryOverrides": [],
+  "certifications": [
+    {
+      "id": "language-one-of",
+      "label": "공식 외국어 기준 중 1개 이상",
+      "kind": "language",
+      "acceptedValues": [
+        "TOEIC 600점",
+        "OPIc Novice High",
+        "TOEIC Speaking Lv.4",
+        "New TEPS 268점",
+        "TOEFL CBT 177점",
+        "TOEFL PBT 567점",
+        "TOEFL iBT 63점",
+        "JPT 500점",
+        "JLPT 3급",
+        "HSK 4급",
+        "한자능력검정시험 2급 이상"
+      ]
+    },
+    {
+      "id": "activity-volunteer",
+      "label": "사회봉사활동 30시간 이상",
+      "kind": "volunteer",
+      "minimum": 30,
+      "unit": "시간",
+      "oneOfGroup": "activity"
+    },
+    {
+      "id": "activity-internship",
+      "label": "전공선택 현장실습 Ⅰ·Ⅱ 또는 현장실습 중 1개 이상",
+      "kind": "internship",
+      "oneOfGroup": "activity"
+    },
+    {
+      "id": "activity-certificate",
+      "label": "산업기사 이상 국가기술자격 또는 인정 국제공인 자격 중 1개 이상",
+      "kind": "certificate",
+      "oneOfGroup": "activity"
+    }
+  ],
+  "eligibilityRules": [
+    {
+      "goal": "regular",
+      "eligibleStudentTypes": [
+        "freshman",
+        "transfer"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "kmou-2022-new-student-course-guide",
+      "title": "2022학년도 신입생 수강안내 편제학점표",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2022학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=ebc85967f5098b5feff20c2ecd4ed44b",
+      "fileName": "2022_official_curriculum.pdf",
+      "fileHash": "sha256:630fa6597fe252dc0055d660210894574cd31e481f4bfb46fc829d59c7f14675",
+      "documentVersionId": "kmou-2022-new-student-course-guide@630fa6597fe2"
+    },
+    {
+      "id": "kmou-2022-computer-engineering-detailed-curriculum",
+      "title": "2022학년도 IT융합전공 상세 교육과정표",
+      "organization": "국립한국해양대학교 인공지능공학부",
+      "updatedAt": "2022학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=25327f0e142f0b096955f1a3d01e58ee",
+      "fileName": "2022_computer_engineering_curriculum.xlsx",
+      "fileHash": "sha256:f3a5f3fb947699d1062ae2b8d99d6ebb14b5b54d94f1acbbce5beff554d70501",
+      "documentVersionId": "kmou-2022-computer-engineering-detailed-curriculum@f3a5f3fb9476"
+    },
+    {
+      "id": "kmou-2018-2025-general-education-system",
+      "title": "2022학년도 컴퓨터공학전공 교양교육 이수체계",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2018-2025학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=0e78b6535c7c6c72f174c4f4bf9f9d14",
+      "fileName": "general_education_2018_2025.pdf",
+      "fileHash": "sha256:c77358ba2449d558c3265746ed51e6c132dc86fee5b7d02debab376352fc4cfc",
+      "documentVersionId": "kmou-2018-2025-general-education-system@c77358ba2449"
+    },
+    {
+      "id": "kmou-2022-general-education-course-catalog",
+      "title": "2022학년도 교양교육과정표",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2022학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=e7d75658e9d5c39f2a732369e3c8a447",
+      "fileName": "2022_general_education_course_catalog.pdf",
+      "fileHash": "sha256:3629aefd5e5be0c8053d82121bd4799c273b719b613420b704f7b136aa7a9de3",
+      "documentVersionId": "kmou-2022-general-education-course-catalog@3629aefd5e5b"
+    }
+  ],
+  "notes": [
+    "이 규칙은 해당 적용 교육과정의 공통 졸업요건이며 신입생과 편입생에게 동일하게 적용합니다.",
+    "공식 편제학점표의 '인공지능공학부 IT융합전공' 행에서 영역별 학점과 총 졸업학점만 검증한 후보입니다.",
+    "관리자 승인 전이며 운영 판정에 사용할 수 없습니다.",
+    "과목별 필수·대체과목·폐지과목·경과조치·개인별 적용 교육과정년도는 추가 검증이 필요합니다.",
+    "2022년은 상세 Excel의 필수 교과목 후보까지 포함했으나 폐지·대체·개인별 예외 검토 전입니다.",
+    "교양 세부영역은 공식 교양교육 이수체계와 해당 학년도 교양교육과정표의 교양선택 과목코드를 전수 대조해 verified-final로 고정했습니다.",
+    "성적표 교과목번호가 공식 인정 목록과 정확히 일치할 때만 사회·경제/역사·문화/해양 영역 학점으로 산입합니다.",
+    "2022 공식 교양교육과정표의 비대상 영역 코드로 확인된 과목은 대상 네 영역의 미매핑 오류로 취급하지 않으며, 공식 표에 없는 코드는 관리자 확인 필요로 처리합니다."
+  ],
+  "generalEducationAreas": [
+    {
+      "id": "marine-culture",
+      "label": "해양과 문화",
+      "parentArea": "특화교양",
+      "minimumCredits": 2,
+      "eligibleCourses": [
+        {
+          "code": "L2002",
+          "name": "해양과문명",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2004",
+          "name": "세계해항도시의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2008",
+          "name": "해양과환경",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2011",
+          "name": "해양기업문화의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2013",
+          "name": "해양의지배와이용",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2020",
+          "name": "해양문학입문",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2021",
+          "name": "해양사입문",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2022",
+          "name": "역사속의독도",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2023",
+          "name": "세계가바라보는독도",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2024",
+          "name": "해양문화와콘텐츠",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2025",
+          "name": "해양문화와과학기술",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2027",
+          "name": "한국해녀문화연구노트",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2029",
+          "name": "스토리텔링해사용어",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2031",
+          "name": "원아시아원씨(One Asia One Sea)",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2033",
+          "name": "해역과해양법의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2034",
+          "name": "영화속해양코드읽기",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2035",
+          "name": "인포그래픽으로만나는해양산업",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2036",
+          "name": "차세대해양정책리더",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3033",
+          "name": "해사법과해양문화",
+          "credits": 2,
+          "courseType": "elective"
+        }
+      ],
+      "evidence": {
+        "requirementSourceId": "kmou-2018-2025-general-education-system",
+        "courseCatalogSourceId": "kmou-2022-general-education-course-catalog",
+        "page": 5,
+        "matchPolicy": "exact-course-code"
+      }
+    },
+    {
+      "id": "marine-sports-art",
+      "label": "해양 스포츠와 예술",
+      "parentArea": "특화교양",
+      "minimumCredits": 2,
+      "eligibleCourses": [
+        {
+          "code": "L2101",
+          "name": "생존수영",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2104",
+          "name": "세일링요트",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2105",
+          "name": "생활체육",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2106",
+          "name": "운동과건강관리",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2107",
+          "name": "스포츠댄스",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2108",
+          "name": "클래식음악의이해와감상",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2109",
+          "name": "미술의역사",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2110",
+          "name": "한국예술의멋과아름다움",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2111",
+          "name": "미술로보는해양문화",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2112",
+          "name": "여가및레크레이션",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2113",
+          "name": "교양테니스Ⅰ",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2114",
+          "name": "교양테니스Ⅱ",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2115",
+          "name": "축구",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2116",
+          "name": "유도",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2117",
+          "name": "카메라연기의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2118",
+          "name": "K-댄스커뮤니케이션",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3414",
+          "name": "문학과예술의시대사(낭만주의)",
+          "credits": 1,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3415",
+          "name": "문학과예술의시대사(인상주의)",
+          "credits": 1,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3416",
+          "name": "문학과예술의시대사(모더니즘)",
+          "credits": 1,
+          "courseType": "elective"
+        }
+      ],
+      "evidence": {
+        "requirementSourceId": "kmou-2018-2025-general-education-system",
+        "courseCatalogSourceId": "kmou-2022-general-education-course-catalog",
+        "page": 5,
+        "matchPolicy": "exact-course-code"
+      }
+    },
+    {
+      "id": "history-culture",
+      "label": "역사와 문화",
+      "parentArea": "균형교양",
+      "minimumCredits": 4,
+      "eligibleCourses": [
+        {
+          "code": "L3007",
+          "name": "한국현대문학읽기",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3008",
+          "name": "신화와현대문명",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3010",
+          "name": "과학사",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3011",
+          "name": "문화로읽는한국사",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3015",
+          "name": "성,사랑,결혼",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3016",
+          "name": "영화의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3017",
+          "name": "영화로만나는영미문화",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3021",
+          "name": "세계의역사와문화",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3025",
+          "name": "엔터테인먼트산업의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3030",
+          "name": "글로벌문화",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3034",
+          "name": "디지털인문학의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3035",
+          "name": "동서양문화비교",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3036",
+          "name": "예술과과학기술",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3037",
+          "name": "20세기한국생활문화의변천",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3038",
+          "name": "민속에서놀이와축제로",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3040",
+          "name": "무역과문화이동",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3041",
+          "name": "언어로보는젠더",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3042",
+          "name": "역사란무엇인가",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3043",
+          "name": "해양명작의이해",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3044",
+          "name": "글로벌시대의문화인류학",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3045",
+          "name": "한국의세계문화유산",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3046",
+          "name": "배와항해의역사",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3047",
+          "name": "타문화이해와국제매너",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3049",
+          "name": "문화와철학",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3050",
+          "name": "문화와철학",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3051",
+          "name": "한국정신사의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3052",
+          "name": "여성학의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3057",
+          "name": "현대학문의패러다임",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3059",
+          "name": "동남아시아사회와문화",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3060",
+          "name": "독일사회와문화",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3061",
+          "name": "프랑스사회와문화",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3062",
+          "name": "문학과영화로본현대사회",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3106",
+          "name": "영화로본세계교육",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3159",
+          "name": "현대도시와대중영화론",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L9512",
+          "name": "해양역사의이해",
+          "credits": 3,
+          "courseType": "elective"
+        }
+      ],
+      "evidence": {
+        "requirementSourceId": "kmou-2018-2025-general-education-system",
+        "courseCatalogSourceId": "kmou-2022-general-education-course-catalog",
+        "page": 5,
+        "matchPolicy": "exact-course-code"
+      }
+    },
+    {
+      "id": "social-economy",
+      "label": "사회와 경제",
+      "parentArea": "균형교양",
+      "minimumCredits": 4,
+      "eligibleCourses": [
+        {
+          "code": "L1131",
+          "name": "그린캠퍼스학개론",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3048",
+          "name": "심리학이야기",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3055",
+          "name": "4차산업혁명과미래교육",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3111",
+          "name": "현대사회의여성과법률",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3121",
+          "name": "기업과경영",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3122",
+          "name": "무역과경제",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3126",
+          "name": "국제관계와 법문화",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3134",
+          "name": "한국경제와경영",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3140",
+          "name": "자본주의의이해",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3143",
+          "name": "경영학원론",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3144",
+          "name": "경제학원론",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3145",
+          "name": "민주국가와헌법",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3146",
+          "name": "재미나는민법의세계",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3148",
+          "name": "바다와법과인간",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3153",
+          "name": "통계로보는사회",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3154",
+          "name": "법과생활",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3155",
+          "name": "현대사회와스포츠",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3156",
+          "name": "기후변화시대의인간과환경",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3160",
+          "name": "글로벌경제사의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3161",
+          "name": "증권투자의이해및연습",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3162",
+          "name": "영화속녹아든법학이야기",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3163",
+          "name": "디자인싱킹과사회문제해결",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3164",
+          "name": "범죄와형벌의이해",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3165",
+          "name": "셰익스피어희곡에서배우는법과정의",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3167",
+          "name": "시민생활과법",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3168",
+          "name": "해운의이해",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3169",
+          "name": "법률지식의이해",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3170",
+          "name": "민주시민과사회정책",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3171",
+          "name": "해양도시와문화이해",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3172",
+          "name": "부산사회와국제교류",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3173",
+          "name": "한반도의어제와오늘",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3408",
+          "name": "인간행동의이해와넛지",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3409",
+          "name": "해양과국제사회",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L9521",
+          "name": "현대사회와법",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L9523",
+          "name": "금융과사회",
+          "credits": 3,
+          "courseType": "elective"
+        }
+      ],
+      "evidence": {
+        "requirementSourceId": "kmou-2018-2025-general-education-system",
+        "courseCatalogSourceId": "kmou-2022-general-education-course-catalog",
+        "page": 5,
+        "matchPolicy": "exact-course-code"
+      }
+    }
+  ],
+  "generalEducationCombinedRequirements": [
+    {
+      "id": "history-social-combined",
+      "label": "역사와 문화 + 사회와 경제",
+      "areaIds": [
+        "history-culture",
+        "social-economy"
+      ],
+      "minimumCredits": 9,
+      "evidence": {
+        "requirementSourceId": "kmou-2018-2025-general-education-system",
+        "page": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": "kmou-2026-computer-engineering-curriculum-candidate",
+  "version": "0.2.0",
+  "status": "review",
+  "selector": {
+    "universityId": "kmou",
+    "admissionYear": 2026,
+    "departmentId": "computer-engineering"
+  },
+  "effectiveFrom": "2026-03-01",
+  "requiredTotalCredits": 135,
+  "creditRequirements": [
+    {
+      "key": "generalRequired",
+      "label": "교양필수",
+      "shortLabel": "교필",
+      "minimum": 26,
+      "color": "var(--blue)"
+    },
+    {
+      "key": "generalElective",
+      "label": "교양선택",
+      "shortLabel": "교선",
+      "minimum": 15,
+      "color": "var(--violet)"
+    },
+    {
+      "key": "majorFoundation",
+      "label": "전공기초",
+      "shortLabel": "전기",
+      "minimum": 12,
+      "color": "var(--cyan)"
+    },
+    {
+      "key": "majorRequired",
+      "label": "전공필수",
+      "shortLabel": "전필",
+      "minimum": 43,
+      "color": "var(--green)"
+    },
+    {
+      "key": "majorElective",
+      "label": "전공선택",
+      "shortLabel": "전선",
+      "minimum": 15,
+      "color": "var(--amber)"
+    },
+    {
+      "key": "freeElective",
+      "label": "일반선택",
+      "shortLabel": "일선",
+      "minimum": 24,
+      "color": "var(--slate)"
+    }
+  ],
+  "requiredCourses": [],
+  "substitutions": [],
+  "categoryOverrides": [],
+  "certifications": [],
+  "eligibilityRules": [
+    {
+      "goal": "regular",
+      "eligibleStudentTypes": [
+        "freshman",
+        "transfer"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "kmou-2026-new-student-course-guide",
+      "title": "2026학년도 신입생 수강안내 편제학점표",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2026학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=98f1de7f163ea8019c28b462168c997d",
+      "fileName": "2026_official_curriculum.pdf",
+      "fileHash": "sha256:199de99df355d940b3f80d8e04e75389ad39c5d7afa5ac82bfe3cbbbc326ef91",
+      "documentVersionId": "kmou-2026-new-student-course-guide@199de99df355"
+    },
+    {
+      "id": "kmou-2026-general-education-system",
+      "title": "2026학년도 컴퓨터공학전공 교양교육 이수체계",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2026학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=c8836264ffb9d08411a145ad8295f35a",
+      "fileName": "2026_general_education.pdf",
+      "fileHash": "sha256:ab2e1a45c518d361442b0eaff4c95b187286af852d25a6a78cb64b0d73438516",
+      "documentVersionId": "kmou-2026-general-education-system@ab2e1a45c518"
+    },
+    {
+      "id": "kmou-2026-general-education-course-catalog",
+      "title": "2026학년도 교양교육과정표",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2026학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=7aaf0ce2f228592d29378a9f40bfe3cf",
+      "fileName": "2026_general_education_course_catalog.pdf",
+      "fileHash": "sha256:acaf931e6e04f7a887845f528f9a476aa1c2baf25bfc58146743995085d49012",
+      "documentVersionId": "kmou-2026-general-education-course-catalog@acaf931e6e04"
+    }
+  ],
+  "notes": [
+    "이 규칙은 해당 적용 교육과정의 공통 졸업요건이며 신입생과 편입생에게 동일하게 적용합니다.",
+    "공식 편제학점표의 '인공지능공학부 컴퓨터공학전공' 행에서 영역별 학점과 총 졸업학점만 검증한 후보입니다.",
+    "관리자 승인 전이며 운영 판정에 사용할 수 없습니다.",
+    "과목별 필수·대체과목·폐지과목·경과조치·개인별 적용 교육과정년도는 추가 검증이 필요합니다.",
+    "교양 세부영역은 공식 교양교육 이수체계와 해당 학년도 교양교육과정표를 함께 대조한 후보입니다.",
+    "성적표 교과목번호가 공식 인정 목록과 정확히 일치할 때만 사회·경제/역사·문화/해양 영역 학점으로 산입합니다.",
+    "미매핑 교양선택 과목이 존재하면서 영역이 부족하면 미충족으로 단정하지 않고 관리자 확인 필요로 처리합니다."
+  ],
+  "generalEducationAreas": [
+    {
+      "id": "marine-basic",
+      "label": "해양기초 선택교양",
+      "parentArea": "Anchor교양",
+      "minimumCredits": 2,
+      "eligibleCourses": [
+        {
+          "code": "L2002",
+          "name": "해양과문명",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2004",
+          "name": "세계해항도시의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2008",
+          "name": "해양과환경",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2013",
+          "name": "해양의지배와이용",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2020",
+          "name": "해양문학입문",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2022",
+          "name": "역사속의독도",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2023",
+          "name": "세계가바라보는독도",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2024",
+          "name": "해양문화와콘텐츠",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2025",
+          "name": "해양문화와과학기술",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2027",
+          "name": "한국해녀문화연구노트",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2029",
+          "name": "스토리텔링해사용어",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2031",
+          "name": "원아시아원씨(One Asia One Sea)",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2034",
+          "name": "영화속해양코드읽기",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2038",
+          "name": "도표로쉽게이해하는해운",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2039",
+          "name": "해항도시부산의이해",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2040",
+          "name": "차세대해양정책리더기초",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2041",
+          "name": "차세대해양정책리더심화",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L2111",
+          "name": "미술로보는해양문화",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3033",
+          "name": "해사법과해양문화",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3148",
+          "name": "바다와법과인간",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3168",
+          "name": "해운의이해",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L3409",
+          "name": "해양과국제사회",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L6001",
+          "name": "크루즈산업의이해",
+          "credits": 2,
+          "courseType": "elective"
+        },
+        {
+          "code": "L6002",
+          "name": "해양미래탐험",
+          "credits": 3,
+          "courseType": "elective"
+        },
+        {
+          "code": "L6003",
+          "name": "해양정치외교의이해",
+          "credits": 3,
+          "courseType": "elective"
+        }
+      ],
+      "evidence": {
+        "requirementSourceId": "kmou-2026-general-education-system",
+        "courseCatalogSourceId": "kmou-2026-general-education-course-catalog",
+        "page": 27,
+        "matchPolicy": "exact-course-code"
+      }
+    }
+  ],
+  "generalEducationCombinedRequirements": []
+}

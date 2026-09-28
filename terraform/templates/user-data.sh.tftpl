@@ -1,0 +1,62 @@
+#!/bin/bash
+set -euo pipefail
+exec > >(tee -a /var/log/kmou-bootstrap.log | logger -t kmou-bootstrap) 2>&1
+
+for attempt in 1 2 3 4 5; do
+  if dnf install -y docker wireguard-tools awscli-2; then break; fi
+  if [ "$attempt" -eq 5 ]; then exit 1; fi
+  sleep 15
+done
+systemctl enable --now docker
+install -d -m 0700 /etc/wireguard
+cat >/usr/local/sbin/kmou-wireguard-start <<'SCRIPT'
+#!/bin/bash
+set -euo pipefail
+umask 077
+aws ssm get-parameter --region '${region}' --name '${parameter_name}' --with-decryption --query 'Parameter.Value' --output text > /etc/wireguard/wg0.conf
+chmod 600 /etc/wireguard/wg0.conf
+wg-quick up wg0
+SCRIPT
+chmod 700 /usr/local/sbin/kmou-wireguard-start
+cat >/etc/systemd/system/kmou-wireguard.service <<'UNIT'
+[Unit]
+Description=Load WireGuard configuration from SSM and start tunnel
+Wants=network-online.target
+After=network-online.target
+Before=docker.service
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/sbin/kmou-wireguard-start
+ExecStop=/usr/bin/wg-quick down wg0
+[Install]
+WantedBy=multi-user.target
+UNIT
+# IAM credentials and SSM may take a moment to become available at first boot.
+cat >/etc/systemd/system/kmou-wireguard-retry.service <<'UNIT'
+[Unit]
+Description=Retry WireGuard tunnel setup after boot
+After=network-online.target
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl start kmou-wireguard.service
+UNIT
+cat >/etc/systemd/system/kmou-wireguard-retry.timer <<'UNIT'
+[Unit]
+Description=Retry WireGuard tunnel setup
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=2min
+Unit=kmou-wireguard-retry.service
+[Install]
+WantedBy=timers.target
+UNIT
+systemctl daemon-reload
+systemctl enable kmou-wireguard.service kmou-wireguard-retry.timer
+systemctl start kmou-wireguard-retry.timer
+systemctl start kmou-wireguard.service || true
+base64 -d >/usr/local/bin/kmou-deploy <<'DEPLOY'
+${deploy_script}
+DEPLOY
+chmod 700 /usr/local/bin/kmou-deploy
+# Image deployment is deliberately a second phase: ECR is empty on first apply.

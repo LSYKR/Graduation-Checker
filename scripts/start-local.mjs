@@ -1,0 +1,11 @@
+import {existsSync} from 'node:fs';
+import {spawn} from 'node:child_process';
+import nextEnv from '@next/env';
+import {syncStandaloneAssets} from './sync-standalone-assets.mjs';
+nextEnv.loadEnvConfig(process.cwd());
+const root='.next/standalone';
+if(!existsSync(root+'/server.js'))throw new Error('Run npm run build first');
+syncStandaloneAssets(process.cwd());
+const child=spawn(process.execPath,[root+'/server.js'],{stdio:'inherit',env:{...process.env,HOSTNAME:process.env.HOSTNAME??'127.0.0.1',PORT:process.env.PORT??'3000'},shell:false});
+for(const signal of ['SIGINT','SIGTERM'])process.on(signal,()=>child.kill(signal));
+child.on('exit',code=>process.exit(code??0));

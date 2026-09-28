@@ -1,0 +1,74 @@
+{
+  "id": "kmou-2022-computer-engineering-current-classification-2024",
+  "version": "1.0.0",
+  "status": "verified",
+  "sourceId": "computer-engineering-opened-courses-2024",
+  "sourceIds": [
+    "computer-engineering-opened-courses-2024-1",
+    "computer-engineering-opened-courses-2024-2"
+  ],
+  "matchPolicy": "exact-course-code",
+  "role": "current-classification",
+  "referenceYear": 2024,
+  "sources": [
+    {
+      "id": "computer-engineering-opened-courses-2024-1",
+      "title": "2024학년도 제1학기 개설 예정 교과목 현황",
+      "organization": "한국해양대학교 인공지능공학부",
+      "updatedAt": "2024학년도 1학기",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=f4a03997774324a0c78cc3597e995031",
+      "fileHash": "5ff9134ee8fb8be4cfa46de4b18e6f708b851dc346143718319ae00e7a14b4a3",
+      "role": "classification-reference",
+      "documentYear": 2024
+    },
+    {
+      "id": "computer-engineering-opened-courses-2024-2",
+      "title": "2024학년도 제2학기 개설 예정 교과목 현황",
+      "organization": "한국해양대학교 인공지능공학부",
+      "updatedAt": "2024학년도 2학기",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=c09ddf5b132eacde3f6e4820a522f34f",
+      "fileHash": "b9f80e92dbdb935248ec4010af32bf7961a09c140b4d7b6b5c32885720d1a338",
+      "role": "classification-reference",
+      "documentYear": 2024
+    }
+  ],
+  "activation": {
+    "minimumTranscriptMatches": 10,
+    "minimumMatchedCredits": 25,
+    "minimumCategoryAgreementRatio": 0.75
+  },
+  "requiredCourseSetStatus": "review",
+  "requiredCourseSetNote": "2024학년도 1·2학기 공식 개설과목표는 업로드 성적표의 전공 이수구분을 교차검증하는 보조 스냅샷입니다. 최소 10과목·25학점 이상이 같은 이수구분으로 일치할 때만 분류 검증에 사용하며, 2022학번의 확정 필수과목 목록으로 사용하지 않습니다. 학과 확인을 받은 자동제어(51177)와 고급심층학습및응용(55249) 대체 규칙은 별도 2022 운영 규칙에서만 반영합니다.",
+  "entries": [
+    { "code": "53531", "name": "전자회로및실험Ⅰ", "category": "majorFoundation", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 1 },
+    { "code": "53581", "name": "컴퓨터언어및실습Ⅱ", "category": "majorFoundation", "credits": 3, "required": true, "recommendedYear": 1, "recommendedSemester": 2 },
+    { "code": "90536", "name": "기초물리학", "category": "majorFoundation", "credits": 2, "required": true, "recommendedYear": 1, "recommendedSemester": 2 },
+    { "code": "90537", "name": "기초물리학실험", "category": "majorFoundation", "credits": 1, "required": true, "recommendedYear": 1, "recommendedSemester": 2 },
+    { "code": "53532", "name": "전자회로및실험Ⅱ", "category": "majorFoundation", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 2 },
+    { "code": "53535", "name": "컴퓨터언어및실습Ⅲ", "category": "majorFoundation", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 2 },
+
+    { "code": "53371", "name": "공학개론", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 1, "recommendedSemester": 1 },
+    { "code": "51177", "name": "자동제어", "category": "majorRequired", "credits": 3, "required": false, "recommendedYear": 2, "recommendedSemester": 1 },
+    { "code": "51181", "name": "자동제어Ⅰ", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 1 },
+    { "code": "52127", "name": "디지털회로및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 1 },
+    { "code": "54936", "name": "인공지능코딩기초및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 1 },
+    { "code": "54937", "name": "자료구조및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 1 },
+    { "code": "51147", "name": "운영체제", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 3, "recommendedSemester": 1 },
+    { "code": "52262", "name": "알고리즘설계및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 3, "recommendedSemester": 1 },
+    { "code": "52569", "name": "해양데이터통신", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 3, "recommendedSemester": 1 },
+    { "code": "53018", "name": "데이터베이스응용및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 3, "recommendedSemester": 1 },
+    { "code": "53368", "name": "캡스톤디자인Ⅱ", "category": "majorRequired", "credits": 2, "required": true, "recommendedYear": 4, "recommendedSemester": 1 },
+    { "code": "53534", "name": "네트워크보안", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 4, "recommendedSemester": 1 },
+    { "code": "90584", "name": "영상처리및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 4, "recommendedSemester": 1 },
+    { "code": "51480", "name": "회로이론", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 1, "recommendedSemester": 2 },
+    { "code": "51411", "name": "컴퓨터구조론", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 2 },
+    { "code": "54621", "name": "Adventure Design", "category": "majorRequired", "credits": 2, "required": true, "recommendedYear": 2, "recommendedSemester": 2 },
+    { "code": "54943", "name": "시퀀스제어및PLC프로그래밍", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 2, "recommendedSemester": 2 },
+    { "code": "51554", "name": "디지털신호처리", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 3, "recommendedSemester": 2 },
+    { "code": "52600", "name": "임베디드시스템설계및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 3, "recommendedSemester": 2 },
+    { "code": "53367", "name": "캡스톤디자인Ⅰ", "category": "majorRequired", "credits": 2, "required": true, "recommendedYear": 3, "recommendedSemester": 2 },
+    { "code": "54940", "name": "컴퓨터네트워크및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 3, "recommendedSemester": 2 },
+    { "code": "90585", "name": "인공지능및실습", "category": "majorRequired", "credits": 3, "required": true, "recommendedYear": 3, "recommendedSemester": 2 },
+    { "code": "55249", "name": "고급심층학습및응용", "category": "majorRequired", "credits": 3, "required": false, "recommendedYear": 4, "recommendedSemester": 2 }
+  ]
+}

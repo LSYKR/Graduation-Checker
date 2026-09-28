@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 4,
+  "generatedAt": "2026-08-06T00:17:24+09:00",
+  "policy": "fail-closed",
+  "scope": "computer-engineering-detailed-curriculum-and-general-education",
+  "compositionModel": "shared-curriculum-rule-plus-student-policy-overlay",
+  "records": [
+    {
+      "universityId": "kmou",
+      "curriculumYear": 2020,
+      "departmentId": "computer-engineering",
+      "curriculumRule": {
+        "creditSummary": "verified",
+        "detailedCurriculum": "not-collected",
+        "generalEducation": "verified",
+        "generalEducationAreaMapping": "verified-final",
+        "graduationCertification": "verified",
+        "requiredCourseTransitions": "not-collected",
+        "latestCandidateVersion": "0.2.0",
+        "appliesToStudentTypes": ["freshman", "transfer"],
+        "operationalRule": "blocked"
+      },
+      "transferApplication": {
+        "usesSameCurriculumRule": true,
+        "separateTransferGraduationRule": false,
+        "recognition": "not-collected",
+        "overlay": "not-collected"
+      }
+    },
+    {
+      "universityId": "kmou",
+      "curriculumYear": 2021,
+      "departmentId": "computer-engineering",
+      "curriculumRule": {
+        "creditSummary": "verified",
+        "detailedCurriculum": "not-collected",
+        "generalEducation": "verified",
+        "generalEducationAreaMapping": "verified-final",
+        "graduationCertification": "verified",
+        "requiredCourseTransitions": "not-collected",
+        "latestCandidateVersion": "0.2.0",
+        "appliesToStudentTypes": ["freshman", "transfer"],
+        "operationalRule": "blocked"
+      },
+      "transferApplication": {
+        "usesSameCurriculumRule": true,
+        "separateTransferGraduationRule": false,
+        "recognition": "not-collected",
+        "overlay": "not-collected"
+      }
+    },
+    {
+      "universityId": "kmou",
+      "curriculumYear": 2022,
+      "departmentId": "computer-engineering",
+      "curriculumRule": {
+        "creditSummary": "verified",
+        "detailedCurriculum": "verified",
+        "generalEducation": "verified",
+        "generalEducationAreaMapping": "verified-final",
+        "graduationCertification": "verified",
+        "requiredCourseTransitions": "review-required",
+        "latestCandidateVersion": "0.2.0",
+        "appliesToStudentTypes": ["freshman", "transfer"],
+        "operationalRule": "provisional"
+      },
+      "transferApplication": {
+        "usesSameCurriculumRule": true,
+        "separateTransferGraduationRule": false,
+        "recognition": "individual-transcript-record-detected",
+        "overlay": "verified-review-2024-entry",
+        "applicableTransferEntryYear": 2024,
+        "overlayVersion": "0.1.0",
+        "operationalOverlay": "provisional"
+      }
+    },
+    {
+      "universityId": "kmou",
+      "curriculumYear": 2023,
+      "departmentId": "computer-engineering",
+      "curriculumRule": {
+        "creditSummary": "verified",
+        "detailedCurriculum": "not-collected",
+        "generalEducation": "verified",
+        "generalEducationAreaMapping": "verified-final",
+        "graduationCertification": "official-remote-pending-hash",
+        "requiredCourseTransitions": "not-collected",
+        "latestCandidateVersion": "0.2.0",
+        "appliesToStudentTypes": ["freshman", "transfer"],
+        "operationalRule": "blocked"
+      },
+      "transferApplication": {
+        "usesSameCurriculumRule": true,
+        "separateTransferGraduationRule": false,
+        "recognition": "not-collected",
+        "overlay": "not-collected"
+      }
+    },
+    {
+      "universityId": "kmou",
+      "curriculumYear": 2024,
+      "departmentId": "computer-engineering",
+      "curriculumRule": {
+        "creditSummary": "verified",
+        "detailedCurriculum": "not-collected",
+        "generalEducation": "verified",
+        "generalEducationAreaMapping": "verified-final",
+        "graduationCertification": "official-remote-pending-hash",
+        "requiredCourseTransitions": "not-collected",
+        "latestCandidateVersion": "0.2.0",
+        "appliesToStudentTypes": ["freshman", "transfer"],
+        "operationalRule": "blocked"
+      },
+      "transferApplication": {
+        "usesSameCurriculumRule": true,
+        "separateTransferGraduationRule": false,
+        "recognition": "not-collected",
+        "overlay": "not-collected"
+      }
+    },
+    {
+      "universityId": "kmou",
+      "curriculumYear": 2025,
+      "departmentId": "computer-engineering",
+      "curriculumRule": {
+        "creditSummary": "verified",
+        "detailedCurriculum": "not-collected",
+        "generalEducation": "verified",
+        "generalEducationAreaMapping": "verified-final",
+        "graduationCertification": "official-remote-pending-hash",
+        "requiredCourseTransitions": "not-collected",
+        "latestCandidateVersion": "0.2.0",
+        "appliesToStudentTypes": ["freshman", "transfer"],
+        "operationalRule": "blocked"
+      },
+      "transferApplication": {
+        "usesSameCurriculumRule": true,
+        "separateTransferGraduationRule": false,
+        "recognition": "not-collected",
+        "overlay": "not-collected"
+      }
+    },
+    {
+      "universityId": "kmou",
+      "curriculumYear": 2026,
+      "departmentId": "computer-engineering",
+      "curriculumRule": {
+        "creditSummary": "verified",
+        "detailedCurriculum": "not-collected",
+        "generalEducation": "verified",
+        "generalEducationAreaMapping": "verified-final",
+        "graduationCertification": "official-index-pending-attachment",
+        "requiredCourseTransitions": "not-collected",
+        "latestCandidateVersion": "0.2.0",
+        "appliesToStudentTypes": ["freshman", "transfer"],
+        "operationalRule": "blocked"
+      },
+      "transferApplication": {
+        "usesSameCurriculumRule": true,
+        "separateTransferGraduationRule": false,
+        "recognition": "not-collected",
+        "overlay": "not-collected"
+      }
+    }
+  ],
+  "activationRule": "this file tracks detailed computer-engineering coverage only; the college-wide credit-only registry is tracked in ocean-science-technology-convergence-coverage-2020-2026.json; approved D1 detail rules are preferred, the bundled 2022 computer-engineering detail rule is an exact-key override, and student policy overlays remain separately keyed"
+}

@@ -1,0 +1,13 @@
+domain_name                     = "grad.example.com"
+acme_email                      = "ops@example.com"
+budget_email                    = "billing@example.com"
+monthly_budget_usd              = 10
+wireguard_config_parameter_name = "/kmou-grad-check/wireguard/wg0"
+wireguard_peer_cidr             = "203.0.113.10/32"
+llm_provider                    = "openai-compatible"
+llm_base_url                    = "http://10.80.0.1:8080"
+llm_model                       = "qwen3-4b"
+llm_large_base_url              = "http://10.80.0.1:8081"
+llm_large_model                 = "qwen3-8b"
+# route53_zone_id = "Z123456789"
+# kms_key_arn = "arn:aws:kms:ap-northeast-2:123456789012:key/UUID"

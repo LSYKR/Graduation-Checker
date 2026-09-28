@@ -1,0 +1,4145 @@
+{
+  "schemaVersion": "1.0.0",
+  "universityId": "kmou",
+  "generatedAt": "2026-08-05",
+  "verificationStatus": "verified-final",
+  "verifiedAt": "2026-08-06",
+  "verificationRecord": "data/extracted/kmou/general-education-area-verification-2020-2026.json",
+  "matchPolicy": "exact-course-code-only",
+  "years": {
+    "2020": {
+      "admissionYear": 2020,
+      "departmentId": "computer-engineering",
+      "areas": [
+        {
+          "id": "marine-culture",
+          "label": "해양과 문화",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2002",
+              "name": "해양과 문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2003",
+              "name": "세계화와 해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2004",
+              "name": "세계해항도시의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2008",
+              "name": "해양과 환경",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2009",
+              "name": "글로벌 해양산업의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2010",
+              "name": "해사업무의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2011",
+              "name": "해양기업문화의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2013",
+              "name": "해양의지배와 이용",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2019",
+              "name": "해양문학과영화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2020",
+              "name": "해양문학입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2021",
+              "name": "해양사입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2022",
+              "name": "역사속의독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2023",
+              "name": "세계가바라보는독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2024",
+              "name": "해양문화와콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2025",
+              "name": "해양문화와과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2026",
+              "name": "해양문화로의초대",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2027",
+              "name": "한국해녀문화연구노트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2029",
+              "name": "스토리텔링 해사용어",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2030",
+              "name": "영화로 보는 씨맨십",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2031",
+              "name": "원아시아원씨(One Asia One Sea)",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3033",
+              "name": "해사법과해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2020-general-education-course-catalog",
+            "page": 7,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "marine-sports-art",
+          "label": "해양 스포츠와 예술",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2101",
+              "name": "생존수영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2104",
+              "name": "세일링 요트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2105",
+              "name": "생활체육",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2106",
+              "name": "운동과건강관리",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2107",
+              "name": "스포츠댄스",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2108",
+              "name": "클래식 음악의 이해와 감상",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2109",
+              "name": "미술의 역사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2110",
+              "name": "한국예술의 멋과 아름다움",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2111",
+              "name": "미술로 보는 해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2112",
+              "name": "여가및레크레이션",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2113",
+              "name": "교양테니스Ⅰ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2114",
+              "name": "교양테니스Ⅱ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2115",
+              "name": "축구",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3414",
+              "name": "문학과 예술의 시대사(낭만주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3415",
+              "name": "문학과 예술의 시대사(인상주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3416",
+              "name": "문학과 예술의 시대사(모더니즘)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9251",
+              "name": "운동과건강관리",
+              "credits": 2.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2020-general-education-course-catalog",
+            "page": 7,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "history-culture",
+          "label": "역사와 문화",
+          "parentArea": "균형교양",
+          "minimumCredits": 3,
+          "eligibleCourses": [
+            {
+              "code": "L3007",
+              "name": "한국현대문학 읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3008",
+              "name": "신화와 현대문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3009",
+              "name": "세계의 문화유산",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3010",
+              "name": "과학사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3011",
+              "name": "문화로 읽는 한국사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3012",
+              "name": "대중문화의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3015",
+              "name": "성, 사랑, 결혼",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3016",
+              "name": "영화의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3017",
+              "name": "영화로 만나는 영미문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3021",
+              "name": "세계의 역사와 문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3025",
+              "name": "엔터테인먼트 산업의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3030",
+              "name": "글로벌문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3034",
+              "name": "디지털인문학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3035",
+              "name": "동서양문화비교",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3036",
+              "name": "예술과과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3037",
+              "name": "20세기한국생활문화의변천",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3038",
+              "name": "민속에서놀이와축제로",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3039",
+              "name": "동남아시아사회와문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3040",
+              "name": "무역과 문화이동",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3041",
+              "name": "언어로 보는 젠더",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3042",
+              "name": "역사란 무엇인가",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3047",
+              "name": "타문화 이해와 국제매너",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3049",
+              "name": "문화와철학",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3050",
+              "name": "문화와철학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3051",
+              "name": "한국정신사의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3052",
+              "name": "여성학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3053",
+              "name": "프랑스문화읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3054",
+              "name": "독일문화읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3106",
+              "name": "영화로 본 세계교육",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3159",
+              "name": "현대도시와 대중영화론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9511",
+              "name": "해양문학의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9512",
+              "name": "해양역사의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2020-general-education-course-catalog",
+            "page": 7,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "social-economy",
+          "label": "사회와 경제",
+          "parentArea": "균형교양",
+          "minimumCredits": 3,
+          "eligibleCourses": [
+            {
+              "code": "L1131",
+              "name": "그린캠퍼스학개론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3048",
+              "name": "심리학이야기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3105",
+              "name": "정보와 사회",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3111",
+              "name": "현대사회의 여성과 법률",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3113",
+              "name": "인터넷과 소비자 윤리",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3115",
+              "name": "현대사회와법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3119",
+              "name": "경영과 법률",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3120",
+              "name": "세계무역의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3121",
+              "name": "기업과 경영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3122",
+              "name": "무역과 경제",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3125",
+              "name": "해양경제영토의 이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3126",
+              "name": "국제관계와 법문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3130",
+              "name": "해운경영의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3131",
+              "name": "국가안보론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3134",
+              "name": "한국경제와경영",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3136",
+              "name": "선상문화교섭의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3137",
+              "name": "시민사회와정부",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3138",
+              "name": "부산지역연구론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3140",
+              "name": "자본주의의 이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3141",
+              "name": "해운경영경제학개론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3142",
+              "name": "해운의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3143",
+              "name": "경영학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3144",
+              "name": "경제학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3145",
+              "name": "민주국가와헌법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3146",
+              "name": "재미나는민법의세계",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3148",
+              "name": "바다와법과인간",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3149",
+              "name": "국제사회와 문화이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3150",
+              "name": "국제사회와 협력이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3151",
+              "name": "해양경제와 영토문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3153",
+              "name": "통계로보는사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3154",
+              "name": "법과생활",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3155",
+              "name": "현대사회와 스포츠",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3156",
+              "name": "기후변화시대의인간과환경",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3157",
+              "name": "법률지식의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3158",
+              "name": "경영학원론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3164",
+              "name": "범죄와형별의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3165",
+              "name": "셰익스피어 희곡에서 배우는 법과 정의",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3408",
+              "name": "인간행동의이해와넛지",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3409",
+              "name": "해양과국제사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9521",
+              "name": "현대사회와법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9522",
+              "name": "선상문화교섭의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9523",
+              "name": "금융과사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9524",
+              "name": "세계무역의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2020-general-education-course-catalog",
+            "page": 7,
+            "matchPolicy": "exact-course-code"
+          }
+        }
+      ],
+      "combinedRequirements": [
+        {
+          "id": "history-social-combined",
+          "label": "역사와 문화 + 사회와 경제",
+          "areaIds": [
+            "history-culture",
+            "social-economy"
+          ],
+          "minimumCredits": 8,
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "page": 7
+          }
+        }
+      ],
+      "notes": [
+        "성적표 과목코드가 공식 교양교육과정표의 코드와 정확히 일치할 때만 영역 학점으로 인정합니다.",
+        "과목명 유사 일치는 자동 인정하지 않습니다.",
+        "현재 규칙은 관리자 검수 후보이며 운영 승인 전입니다."
+      ]
+    },
+    "2021": {
+      "admissionYear": 2021,
+      "departmentId": "computer-engineering",
+      "areas": [
+        {
+          "id": "marine-culture",
+          "label": "해양과 문화",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2002",
+              "name": "해양과 문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2003",
+              "name": "세계화와 해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2004",
+              "name": "세계해항도시의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2008",
+              "name": "해양과 환경",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2009",
+              "name": "글로벌 해양산업의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2011",
+              "name": "해양기업문화의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2013",
+              "name": "해양의지배와 이용",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2019",
+              "name": "해양문학과영화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2020",
+              "name": "해양문학입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2021",
+              "name": "해양사입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2022",
+              "name": "역사속의독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2023",
+              "name": "세계가바라보는독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2024",
+              "name": "해양문화와콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2025",
+              "name": "해양문화와과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2026",
+              "name": "해양문화로의초대",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2027",
+              "name": "한국해녀문화연구노트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2029",
+              "name": "스토리텔링 해사용어",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2031",
+              "name": "원아시아원씨(One Asia One Sea)",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2033",
+              "name": "해역과해양법의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2034",
+              "name": "영화속해양코드읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3033",
+              "name": "해사법과해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2021-general-education-course-catalog",
+            "page": 6,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "marine-sports-art",
+          "label": "해양 스포츠와 예술",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2101",
+              "name": "생존수영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2104",
+              "name": "세일링 요트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2105",
+              "name": "생활체육",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2106",
+              "name": "운동과건강관리",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2107",
+              "name": "스포츠댄스",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2108",
+              "name": "클래식 음악의 이해와 감상",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2109",
+              "name": "미술의 역사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2110",
+              "name": "한국예술의 멋과 아름다움",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2111",
+              "name": "미술로 보는 해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2112",
+              "name": "여가및레크레이션",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2113",
+              "name": "교양테니스Ⅰ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2114",
+              "name": "교양테니스Ⅱ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2115",
+              "name": "축구",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2116",
+              "name": "유도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3414",
+              "name": "문학과 예술의 시대사(낭만주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3415",
+              "name": "문학과 예술의 시대사(인상주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3416",
+              "name": "문학과 예술의 시대사(모더니즘)",
+              "credits": 1.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2021-general-education-course-catalog",
+            "page": 6,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "history-culture",
+          "label": "역사와 문화",
+          "parentArea": "균형교양",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            {
+              "code": "L3007",
+              "name": "한국현대문학 읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3008",
+              "name": "신화와 현대문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3010",
+              "name": "과학사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3011",
+              "name": "문화로 읽는 한국사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3015",
+              "name": "성, 사랑, 결혼",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3016",
+              "name": "영화의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3017",
+              "name": "영화로 만나는 영미문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3021",
+              "name": "세계의 역사와 문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3025",
+              "name": "엔터테인먼트 산업의 이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3030",
+              "name": "글로벌문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3034",
+              "name": "디지털인문학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3035",
+              "name": "동서양문화비교",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3036",
+              "name": "예술과과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3037",
+              "name": "20세기한국생활문화의변천",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3038",
+              "name": "민속에서놀이와축제로",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3040",
+              "name": "무역과 문화이동",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3041",
+              "name": "언어로 보는 젠더",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3042",
+              "name": "역사란 무엇인가",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3047",
+              "name": "타문화 이해와 국제매너",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3049",
+              "name": "문화와철학",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3050",
+              "name": "문화와철학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3051",
+              "name": "한국정신사의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3052",
+              "name": "여성학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3053",
+              "name": "프랑스문화읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3054",
+              "name": "독일문화읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3055",
+              "name": "4차산업혁명과미래교육",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3056",
+              "name": "문화인류학의 이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3057",
+              "name": "현대학문의패러다임",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3058",
+              "name": "세계문화유산속의한국사",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3059",
+              "name": "동남아시아사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3060",
+              "name": "독일사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3061",
+              "name": "프랑스사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3106",
+              "name": "영화로 본 세계교육",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3159",
+              "name": "현대도시와 대중영화론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9511",
+              "name": "해양문학의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9512",
+              "name": "해양역사의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2021-general-education-course-catalog",
+            "page": 6,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "social-economy",
+          "label": "사회와 경제",
+          "parentArea": "균형교양",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            {
+              "code": "L1131",
+              "name": "그린캠퍼스학개론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3048",
+              "name": "심리학이야기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3105",
+              "name": "정보와 사회",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3111",
+              "name": "현대사회의 여성과 법률",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3113",
+              "name": "인터넷과 소비자 윤리",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3119",
+              "name": "경영과 법률",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3120",
+              "name": "세계무역의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3121",
+              "name": "기업과 경영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3122",
+              "name": "무역과 경제",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3126",
+              "name": "국제관계와 법문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3134",
+              "name": "한국경제와경영",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3138",
+              "name": "부산지역연구론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3140",
+              "name": "자본주의의 이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3143",
+              "name": "경영학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3144",
+              "name": "경제학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3145",
+              "name": "민주국가와헌법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3146",
+              "name": "재미나는민법의세계",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3148",
+              "name": "바다와법과인간",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3153",
+              "name": "통계로보는사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3154",
+              "name": "법과생활",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3155",
+              "name": "현대사회와 스포츠",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3156",
+              "name": "기후변화시대의인간과환경",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3164",
+              "name": "범죄와형벌의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3165",
+              "name": "셰익스피어 희곡에서 배우는 법과 정의",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3166",
+              "name": "다문화사회의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3167",
+              "name": "시민생활과법",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3168",
+              "name": "해운의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3169",
+              "name": "법률지식의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3170",
+              "name": "민주시민과사회정책",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3171",
+              "name": "해양도시와문화이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3172",
+              "name": "부산사회와국제교류",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3173",
+              "name": "한반도의어제와오늘",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3408",
+              "name": "인간행동의이해와넛지",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3409",
+              "name": "해양과국제사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9521",
+              "name": "현대사회와법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9523",
+              "name": "금융과사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9524",
+              "name": "세계무역의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2021-general-education-course-catalog",
+            "page": 6,
+            "matchPolicy": "exact-course-code"
+          }
+        }
+      ],
+      "combinedRequirements": [
+        {
+          "id": "history-social-combined",
+          "label": "역사와 문화 + 사회와 경제",
+          "areaIds": [
+            "history-culture",
+            "social-economy"
+          ],
+          "minimumCredits": 9,
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "page": 6
+          }
+        }
+      ],
+      "notes": [
+        "성적표 과목코드가 공식 교양교육과정표의 코드와 정확히 일치할 때만 영역 학점으로 인정합니다.",
+        "과목명 유사 일치는 자동 인정하지 않습니다.",
+        "현재 규칙은 관리자 검수 후보이며 운영 승인 전입니다."
+      ]
+    },
+    "2022": {
+      "admissionYear": 2022,
+      "departmentId": "computer-engineering",
+      "areas": [
+        {
+          "id": "marine-culture",
+          "label": "해양과 문화",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2002",
+              "name": "해양과문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2004",
+              "name": "세계해항도시의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2008",
+              "name": "해양과환경",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2011",
+              "name": "해양기업문화의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2013",
+              "name": "해양의지배와이용",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2020",
+              "name": "해양문학입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2021",
+              "name": "해양사입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2022",
+              "name": "역사속의독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2023",
+              "name": "세계가바라보는독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2024",
+              "name": "해양문화와콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2025",
+              "name": "해양문화와과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2027",
+              "name": "한국해녀문화연구노트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2029",
+              "name": "스토리텔링해사용어",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2031",
+              "name": "원아시아원씨(One Asia One Sea)",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2033",
+              "name": "해역과해양법의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2034",
+              "name": "영화속해양코드읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2035",
+              "name": "인포그래픽으로만나는해양산업",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2036",
+              "name": "차세대해양정책리더",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3033",
+              "name": "해사법과해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2022-general-education-course-catalog",
+            "page": 5,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "marine-sports-art",
+          "label": "해양 스포츠와 예술",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2101",
+              "name": "생존수영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2104",
+              "name": "세일링요트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2105",
+              "name": "생활체육",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2106",
+              "name": "운동과건강관리",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2107",
+              "name": "스포츠댄스",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2108",
+              "name": "클래식음악의이해와감상",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2109",
+              "name": "미술의역사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2110",
+              "name": "한국예술의멋과아름다움",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2111",
+              "name": "미술로보는해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2112",
+              "name": "여가및레크레이션",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2113",
+              "name": "교양테니스Ⅰ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2114",
+              "name": "교양테니스Ⅱ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2115",
+              "name": "축구",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2116",
+              "name": "유도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2117",
+              "name": "카메라연기의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2118",
+              "name": "K-댄스커뮤니케이션",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3414",
+              "name": "문학과예술의시대사(낭만주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3415",
+              "name": "문학과예술의시대사(인상주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3416",
+              "name": "문학과예술의시대사(모더니즘)",
+              "credits": 1.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2022-general-education-course-catalog",
+            "page": 5,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "history-culture",
+          "label": "역사와 문화",
+          "parentArea": "균형교양",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            {
+              "code": "L3007",
+              "name": "한국현대문학읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3008",
+              "name": "신화와현대문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3010",
+              "name": "과학사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3011",
+              "name": "문화로읽는한국사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3015",
+              "name": "성,사랑,결혼",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3016",
+              "name": "영화의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3017",
+              "name": "영화로만나는영미문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3021",
+              "name": "세계의역사와문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3025",
+              "name": "엔터테인먼트산업의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3030",
+              "name": "글로벌문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3034",
+              "name": "디지털인문학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3035",
+              "name": "동서양문화비교",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3036",
+              "name": "예술과과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3037",
+              "name": "20세기한국생활문화의변천",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3038",
+              "name": "민속에서놀이와축제로",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3040",
+              "name": "무역과문화이동",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3041",
+              "name": "언어로보는젠더",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3042",
+              "name": "역사란무엇인가",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3043",
+              "name": "해양명작의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3044",
+              "name": "글로벌시대의문화인류학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3045",
+              "name": "한국의세계문화유산",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3046",
+              "name": "배와항해의역사",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3047",
+              "name": "타문화이해와국제매너",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3049",
+              "name": "문화와철학",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3050",
+              "name": "문화와철학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3051",
+              "name": "한국정신사의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3052",
+              "name": "여성학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3057",
+              "name": "현대학문의패러다임",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3059",
+              "name": "동남아시아사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3060",
+              "name": "독일사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3061",
+              "name": "프랑스사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3062",
+              "name": "문학과영화로본현대사회",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3106",
+              "name": "영화로본세계교육",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3159",
+              "name": "현대도시와대중영화론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9512",
+              "name": "해양역사의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2022-general-education-course-catalog",
+            "page": 5,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "social-economy",
+          "label": "사회와 경제",
+          "parentArea": "균형교양",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            {
+              "code": "L1131",
+              "name": "그린캠퍼스학개론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3048",
+              "name": "심리학이야기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3055",
+              "name": "4차산업혁명과미래교육",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3111",
+              "name": "현대사회의여성과법률",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3121",
+              "name": "기업과경영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3122",
+              "name": "무역과경제",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3126",
+              "name": "국제관계와 법문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3134",
+              "name": "한국경제와경영",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3140",
+              "name": "자본주의의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3143",
+              "name": "경영학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3144",
+              "name": "경제학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3145",
+              "name": "민주국가와헌법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3146",
+              "name": "재미나는민법의세계",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3148",
+              "name": "바다와법과인간",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3153",
+              "name": "통계로보는사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3154",
+              "name": "법과생활",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3155",
+              "name": "현대사회와스포츠",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3156",
+              "name": "기후변화시대의인간과환경",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3160",
+              "name": "글로벌경제사의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3161",
+              "name": "증권투자의이해및연습",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3162",
+              "name": "영화속녹아든법학이야기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3163",
+              "name": "디자인싱킹과사회문제해결",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3164",
+              "name": "범죄와형벌의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3165",
+              "name": "셰익스피어희곡에서배우는법과정의",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3167",
+              "name": "시민생활과법",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3168",
+              "name": "해운의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3169",
+              "name": "법률지식의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3170",
+              "name": "민주시민과사회정책",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3171",
+              "name": "해양도시와문화이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3172",
+              "name": "부산사회와국제교류",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3173",
+              "name": "한반도의어제와오늘",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3408",
+              "name": "인간행동의이해와넛지",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3409",
+              "name": "해양과국제사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9521",
+              "name": "현대사회와법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9523",
+              "name": "금융과사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2022-general-education-course-catalog",
+            "page": 5,
+            "matchPolicy": "exact-course-code"
+          }
+        }
+      ],
+      "combinedRequirements": [
+        {
+          "id": "history-social-combined",
+          "label": "역사와 문화 + 사회와 경제",
+          "areaIds": [
+            "history-culture",
+            "social-economy"
+          ],
+          "minimumCredits": 9,
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "page": 5
+          }
+        }
+      ],
+      "notes": [
+        "성적표 과목코드가 공식 교양교육과정표의 코드와 정확히 일치할 때만 영역 학점으로 인정합니다.",
+        "과목명 유사 일치는 자동 인정하지 않습니다.",
+        "현재 규칙은 관리자 검수 후보이며 운영 승인 전입니다."
+      ]
+    },
+    "2023": {
+      "admissionYear": 2023,
+      "departmentId": "computer-engineering",
+      "areas": [
+        {
+          "id": "marine-culture",
+          "label": "해양과 문화",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2002",
+              "name": "해양과문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2004",
+              "name": "세계해항도시의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2008",
+              "name": "해양과환경",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2013",
+              "name": "해양의지배와이용",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2020",
+              "name": "해양문학입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2022",
+              "name": "역사속의독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2023",
+              "name": "세계가바라보는독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2024",
+              "name": "해양문화와콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2025",
+              "name": "해양문화와과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2027",
+              "name": "한국해녀문화연구노트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2029",
+              "name": "스토리텔링해사용어",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2031",
+              "name": "원아시아원씨(One Asia One Sea)",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2033",
+              "name": "해역과해양법의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2034",
+              "name": "영화속해양코드읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2036",
+              "name": "차세대해양정책리더",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2038",
+              "name": "도표로쉽게이해하는해운",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2039",
+              "name": "해항도시부산의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3033",
+              "name": "해사법과해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2023-general-education-course-catalog",
+            "page": 4,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "marine-sports-art",
+          "label": "해양 스포츠와 예술",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2101",
+              "name": "생존수영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2104",
+              "name": "세일링요트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2106",
+              "name": "운동과건강관리",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2107",
+              "name": "스포츠댄스",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2108",
+              "name": "클래식음악의이해와감상",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2109",
+              "name": "미술의역사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2110",
+              "name": "한국예술의멋과아름다움",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2111",
+              "name": "미술로보는해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2113",
+              "name": "교양테니스Ⅰ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2114",
+              "name": "교양테니스Ⅱ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2115",
+              "name": "축구",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2116",
+              "name": "유도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2117",
+              "name": "카메라연기의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2118",
+              "name": "K-댄스커뮤니케이션",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2119",
+              "name": "동계스포츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3414",
+              "name": "문학과예술의시대사(낭만주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3415",
+              "name": "문학과예술의시대사(인상주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3416",
+              "name": "문학과예술의시대사(모더니즘)",
+              "credits": 1.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2023-general-education-course-catalog",
+            "page": 4,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "history-culture",
+          "label": "역사와 문화",
+          "parentArea": "균형교양",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            {
+              "code": "L3007",
+              "name": "한국현대문학읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3008",
+              "name": "신화와현대문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3010",
+              "name": "과학사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3011",
+              "name": "문화로읽는한국사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3015",
+              "name": "성,사랑,결혼",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3016",
+              "name": "영화의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3017",
+              "name": "영화로만나는영미문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3021",
+              "name": "세계의역사와문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3025",
+              "name": "엔터테인먼트산업의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3030",
+              "name": "글로벌문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3034",
+              "name": "디지털인문학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3035",
+              "name": "동서양문화비교",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3036",
+              "name": "예술과과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3038",
+              "name": "민속에서놀이와축제로",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3040",
+              "name": "무역과문화이동",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3041",
+              "name": "언어로보는젠더",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3042",
+              "name": "역사란무엇인가",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3043",
+              "name": "해양명작의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3044",
+              "name": "글로벌시대의문화인류학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3045",
+              "name": "한국의세계문화유산",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3046",
+              "name": "배와항해의역사",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3047",
+              "name": "타문화이해와국제매너",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3049",
+              "name": "문화와철학",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3050",
+              "name": "문화와철학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3051",
+              "name": "한국정신사의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3052",
+              "name": "여성학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3057",
+              "name": "현대학문의패러다임",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3059",
+              "name": "동남아시아사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3060",
+              "name": "독일사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3061",
+              "name": "프랑스사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3062",
+              "name": "문학과영화로본현대사회",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3063",
+              "name": "글로벌문화시장과K-콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3064",
+              "name": "부산사람의삶과문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3065",
+              "name": "부산,장소와건축",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3106",
+              "name": "영화로본세계교육",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3159",
+              "name": "현대도시와대중영화론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9512",
+              "name": "해양역사의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2023-general-education-course-catalog",
+            "page": 4,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "social-economy",
+          "label": "사회와 경제",
+          "parentArea": "균형교양",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            {
+              "code": "L1116",
+              "name": "신기술의사업화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L1131",
+              "name": "그린캠퍼스학개론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3048",
+              "name": "심리학이야기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3055",
+              "name": "4차산업혁명과미래교육",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3111",
+              "name": "현대사회의여성과법률",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3121",
+              "name": "기업과경영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3122",
+              "name": "무역과경제",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3126",
+              "name": "국제관계와 법문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3143",
+              "name": "경영학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3144",
+              "name": "경제학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3145",
+              "name": "민주국가와헌법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3146",
+              "name": "재미나는민법의세계",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3148",
+              "name": "바다와법과인간",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3153",
+              "name": "통계로보는사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3155",
+              "name": "현대사회와스포츠",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3156",
+              "name": "기후변화시대의인간과환경",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3160",
+              "name": "글로벌경제사의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3161",
+              "name": "증권투자의이해및연습",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3162",
+              "name": "영화속녹아든법학이야기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3163",
+              "name": "디자인싱킹과사회문제해결",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3164",
+              "name": "범죄와형벌의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3165",
+              "name": "셰익스피어희곡에서배우는법과정의",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3167",
+              "name": "시민생활과법",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3168",
+              "name": "해운의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3169",
+              "name": "법률지식의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3170",
+              "name": "민주시민과사회정책",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3171",
+              "name": "해양도시와문화이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3172",
+              "name": "부산사회와국제교류",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3173",
+              "name": "한반도의어제와오늘",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3174",
+              "name": "ESG와탄소중립의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3175",
+              "name": "해양과기업가정신",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3176",
+              "name": "경제와수학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3177",
+              "name": "창업비즈니스모델",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3178",
+              "name": "창업첫걸음",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3246",
+              "name": "소셜벤처창업론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3248",
+              "name": "창업비지니스아이디어",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3249",
+              "name": "기업혁신과스타트업",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3250",
+              "name": "스타트업챌린지",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3409",
+              "name": "해양과국제사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9521",
+              "name": "현대사회와법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9523",
+              "name": "금융과사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2023-general-education-course-catalog",
+            "page": 4,
+            "matchPolicy": "exact-course-code"
+          }
+        }
+      ],
+      "combinedRequirements": [
+        {
+          "id": "history-social-combined",
+          "label": "역사와 문화 + 사회와 경제",
+          "areaIds": [
+            "history-culture",
+            "social-economy"
+          ],
+          "minimumCredits": 9,
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "page": 4
+          }
+        }
+      ],
+      "notes": [
+        "성적표 과목코드가 공식 교양교육과정표의 코드와 정확히 일치할 때만 영역 학점으로 인정합니다.",
+        "과목명 유사 일치는 자동 인정하지 않습니다.",
+        "현재 규칙은 관리자 검수 후보이며 운영 승인 전입니다."
+      ]
+    },
+    "2024": {
+      "admissionYear": 2024,
+      "departmentId": "computer-engineering",
+      "areas": [
+        {
+          "id": "marine-culture",
+          "label": "해양과 문화",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2002",
+              "name": "해양과문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2004",
+              "name": "세계해항도시의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2008",
+              "name": "해양과환경",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2013",
+              "name": "해양의지배와이용",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2020",
+              "name": "해양문학입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2022",
+              "name": "역사속의독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2023",
+              "name": "세계가바라보는독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2024",
+              "name": "해양문화와콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2025",
+              "name": "해양문화와과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2027",
+              "name": "한국해녀문화연구노트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2029",
+              "name": "스토리텔링해사용어",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2031",
+              "name": "원아시아원씨(One Asia One Sea)",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2033",
+              "name": "해역과해양법의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2034",
+              "name": "영화속해양코드읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2038",
+              "name": "도표로쉽게이해하는해운",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2039",
+              "name": "해항도시부산의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2040",
+              "name": "차세대해양정책리더기초",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2041",
+              "name": "차세대해양정책리더심화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3033",
+              "name": "해사법과해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2024-general-education-course-catalog",
+            "page": 3,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "marine-sports-art",
+          "label": "해양 스포츠와 예술",
+          "parentArea": "특화교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2101",
+              "name": "생존수영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2104",
+              "name": "세일링요트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2106",
+              "name": "운동과건강관리",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2107",
+              "name": "스포츠댄스",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2108",
+              "name": "클래식음악의이해와감상",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2109",
+              "name": "미술의역사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2110",
+              "name": "한국예술의멋과아름다움",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2111",
+              "name": "미술로보는해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2113",
+              "name": "교양테니스Ⅰ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2114",
+              "name": "교양테니스Ⅱ",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2115",
+              "name": "축구",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2116",
+              "name": "유도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2117",
+              "name": "카메라연기의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2118",
+              "name": "K-댄스커뮤니케이션",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2119",
+              "name": "동계스포츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3414",
+              "name": "문학과예술의시대사(낭만주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3415",
+              "name": "문학과예술의시대사(인상주의)",
+              "credits": 1.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3416",
+              "name": "문학과예술의시대사(모더니즘)",
+              "credits": 1.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2024-general-education-course-catalog",
+            "page": 3,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "history-culture",
+          "label": "역사와 문화",
+          "parentArea": "균형교양",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            {
+              "code": "L3007",
+              "name": "한국현대문학읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3008",
+              "name": "신화와현대문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3010",
+              "name": "과학사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3011",
+              "name": "문화로읽는한국사",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3015",
+              "name": "성,사랑,결혼",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3016",
+              "name": "영화의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3017",
+              "name": "영화로만나는영미문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3021",
+              "name": "세계의역사와문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3030",
+              "name": "글로벌문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3034",
+              "name": "디지털인문학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3035",
+              "name": "동서양문화비교",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3036",
+              "name": "예술과과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3038",
+              "name": "민속에서놀이와축제로",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3040",
+              "name": "무역과문화이동",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3041",
+              "name": "언어로보는젠더",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3042",
+              "name": "역사란무엇인가",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3043",
+              "name": "해양명작의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3044",
+              "name": "글로벌시대의문화인류학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3045",
+              "name": "한국의세계문화유산",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3046",
+              "name": "배와항해의역사",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3047",
+              "name": "타문화이해와국제매너",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3050",
+              "name": "문화와철학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3051",
+              "name": "한국정신사의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3052",
+              "name": "여성학의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3057",
+              "name": "현대학문의패러다임",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3059",
+              "name": "동남아시아사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3060",
+              "name": "독일사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3061",
+              "name": "프랑스사회와문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3062",
+              "name": "문학과영화로본현대사회",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3063",
+              "name": "글로벌문화시장과K-콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3064",
+              "name": "부산사람의삶과문화",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3065",
+              "name": "부산,장소와건축",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3066",
+              "name": "문화콘텐츠산업의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3067",
+              "name": "명저에서배우는지혜",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3106",
+              "name": "영화로본세계교육",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3159",
+              "name": "현대도시와대중영화론",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9512",
+              "name": "해양역사의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2024-general-education-course-catalog",
+            "page": 3,
+            "matchPolicy": "exact-course-code"
+          }
+        },
+        {
+          "id": "social-economy",
+          "label": "사회와 경제",
+          "parentArea": "균형교양",
+          "minimumCredits": 4,
+          "eligibleCourses": [
+            {
+              "code": "L1116",
+              "name": "신기술의사업화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3048",
+              "name": "심리학이야기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3111",
+              "name": "현대사회의여성과법률",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3121",
+              "name": "기업과경영",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3122",
+              "name": "무역과경제",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3126",
+              "name": "국제관계와 법문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3143",
+              "name": "경영학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3144",
+              "name": "경제학원론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3145",
+              "name": "민주국가와헌법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3146",
+              "name": "재미나는민법의세계",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3148",
+              "name": "바다와법과인간",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3153",
+              "name": "통계로보는사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3155",
+              "name": "현대사회와스포츠",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3156",
+              "name": "기후변화시대의인간과환경",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3160",
+              "name": "글로벌경제사의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3161",
+              "name": "증권투자의이해및연습",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3162",
+              "name": "영화속녹아든법학이야기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3164",
+              "name": "범죄와형벌의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3165",
+              "name": "셰익스피어희곡에서배우는법과정의",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3167",
+              "name": "시민생활과법",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3168",
+              "name": "해운의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3169",
+              "name": "법률지식의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3170",
+              "name": "민주시민과사회정책",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3171",
+              "name": "해양도시와문화이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3172",
+              "name": "부산사회와국제교류",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3173",
+              "name": "한반도의어제와오늘",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3174",
+              "name": "ESG와탄소중립의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3175",
+              "name": "해양과기업가정신",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3176",
+              "name": "경제와수학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3177",
+              "name": "창업비즈니스모델",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3178",
+              "name": "창업첫걸음",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3179",
+              "name": "치유의심리학",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3180",
+              "name": "4차산업혁명시대의인간자원",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3181",
+              "name": "유쾌한이노베이션",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3182",
+              "name": "사회현상에서보는교육의가치",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3246",
+              "name": "소셜벤처창업론",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3248",
+              "name": "창업비지니스아이디어",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3249",
+              "name": "기업혁신과스타트업",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3250",
+              "name": "스타트업챌린지",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3409",
+              "name": "해양과국제사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9521",
+              "name": "현대사회와법",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L9523",
+              "name": "금융과사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2024-general-education-course-catalog",
+            "page": 3,
+            "matchPolicy": "exact-course-code"
+          }
+        }
+      ],
+      "combinedRequirements": [
+        {
+          "id": "history-social-combined",
+          "label": "역사와 문화 + 사회와 경제",
+          "areaIds": [
+            "history-culture",
+            "social-economy"
+          ],
+          "minimumCredits": 9,
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "page": 3
+          }
+        }
+      ],
+      "notes": [
+        "성적표 과목코드가 공식 교양교육과정표의 코드와 정확히 일치할 때만 영역 학점으로 인정합니다.",
+        "과목명 유사 일치는 자동 인정하지 않습니다.",
+        "현재 규칙은 관리자 검수 후보이며 운영 승인 전입니다."
+      ]
+    },
+    "2025": {
+      "admissionYear": 2025,
+      "departmentId": "computer-engineering",
+      "areas": [
+        {
+          "id": "marine-basic",
+          "label": "해양기초 선택교양",
+          "parentArea": "Anchor교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2002",
+              "name": "해양과문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2004",
+              "name": "세계해항도시의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2008",
+              "name": "해양과환경",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2013",
+              "name": "해양의지배와이용",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2020",
+              "name": "해양문학입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2022",
+              "name": "역사속의독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2023",
+              "name": "세계가바라보는독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2024",
+              "name": "해양문화와콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2025",
+              "name": "해양문화와과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2027",
+              "name": "한국해녀문화연구노트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2029",
+              "name": "스토리텔링해사용어",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2031",
+              "name": "원아시아원씨(One Asia One Sea)",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2034",
+              "name": "영화속해양코드읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2038",
+              "name": "도표로쉽게이해하는해운",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2039",
+              "name": "해항도시부산의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2040",
+              "name": "차세대해양정책리더기초",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2041",
+              "name": "차세대해양정책리더심화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2111",
+              "name": "미술로보는해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3033",
+              "name": "해사법과해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3148",
+              "name": "바다와법과인간",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3168",
+              "name": "해운의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3409",
+              "name": "해양과국제사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L6001",
+              "name": "크루즈산업의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L6002",
+              "name": "해양미래탐험",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L6003",
+              "name": "해양정치외교의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2018-2025-general-education-system",
+            "courseCatalogSourceId": "kmou-2025-general-education-course-catalog",
+            "page": 2,
+            "matchPolicy": "exact-course-code"
+          }
+        }
+      ],
+      "combinedRequirements": [],
+      "notes": [
+        "성적표 과목코드가 공식 교양교육과정표의 코드와 정확히 일치할 때만 영역 학점으로 인정합니다.",
+        "과목명 유사 일치는 자동 인정하지 않습니다.",
+        "현재 규칙은 관리자 검수 후보이며 운영 승인 전입니다."
+      ]
+    },
+    "2026": {
+      "admissionYear": 2026,
+      "departmentId": "computer-engineering",
+      "areas": [
+        {
+          "id": "marine-basic",
+          "label": "해양기초 선택교양",
+          "parentArea": "Anchor교양",
+          "minimumCredits": 2,
+          "eligibleCourses": [
+            {
+              "code": "L2002",
+              "name": "해양과문명",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2004",
+              "name": "세계해항도시의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2008",
+              "name": "해양과환경",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2013",
+              "name": "해양의지배와이용",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2020",
+              "name": "해양문학입문",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2022",
+              "name": "역사속의독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2023",
+              "name": "세계가바라보는독도",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2024",
+              "name": "해양문화와콘텐츠",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2025",
+              "name": "해양문화와과학기술",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2027",
+              "name": "한국해녀문화연구노트",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2029",
+              "name": "스토리텔링해사용어",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2031",
+              "name": "원아시아원씨(One Asia One Sea)",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2034",
+              "name": "영화속해양코드읽기",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2038",
+              "name": "도표로쉽게이해하는해운",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2039",
+              "name": "해항도시부산의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2040",
+              "name": "차세대해양정책리더기초",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2041",
+              "name": "차세대해양정책리더심화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L2111",
+              "name": "미술로보는해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3033",
+              "name": "해사법과해양문화",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3148",
+              "name": "바다와법과인간",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3168",
+              "name": "해운의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L3409",
+              "name": "해양과국제사회",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L6001",
+              "name": "크루즈산업의이해",
+              "credits": 2.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L6002",
+              "name": "해양미래탐험",
+              "credits": 3.0,
+              "courseType": "elective"
+            },
+            {
+              "code": "L6003",
+              "name": "해양정치외교의이해",
+              "credits": 3.0,
+              "courseType": "elective"
+            }
+          ],
+          "evidence": {
+            "requirementSourceId": "kmou-2026-general-education-system",
+            "courseCatalogSourceId": "kmou-2026-general-education-course-catalog",
+            "page": 27,
+            "matchPolicy": "exact-course-code"
+          }
+        }
+      ],
+      "combinedRequirements": [],
+      "notes": [
+        "성적표 과목코드가 공식 교양교육과정표의 코드와 정확히 일치할 때만 영역 학점으로 인정합니다.",
+        "과목명 유사 일치는 자동 인정하지 않습니다.",
+        "현재 규칙은 관리자 검수 후보이며 운영 승인 전입니다."
+      ]
+    }
+  }
+}

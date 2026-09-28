@@ -1,0 +1,54 @@
+#!/bin/bash
+set -euo pipefail
+if [ "$#" -ne 1 ] || [[ ! "$1" =~ ^[a-zA-Z0-9_.-]+$ ]]; then
+  echo "Usage: kmou-deploy IMAGE_TAG" >&2
+  exit 2
+fi
+IMAGE_TAG="$1"
+if ! systemctl is-active --quiet kmou-wireguard.service; then
+  systemctl start kmou-wireguard.service
+fi
+aws ecr get-login-password --region '${region}' | docker login --username AWS --password-stdin '${registry}'
+IMAGE='${repository}:'"$IMAGE_TAG"
+docker pull "$IMAGE"
+docker network inspect kmou-private >/dev/null 2>&1 || docker network create kmou-private >/dev/null
+install -d -m 0700 /opt/kmou/caddy-data /opt/kmou/caddy-config
+cat >/opt/kmou/Caddyfile <<'CADDY'
+{
+  email ${acme_email}
+}
+${domain_name} {
+  encode zstd gzip
+  reverse_proxy app:3000
+  header {
+    X-Content-Type-Options nosniff
+    Referrer-Policy strict-origin-when-cross-origin
+  }
+}
+CADDY
+# Keep the previous app until the new image is available.
+docker rm -f kmou-app >/dev/null 2>&1 || true
+docker run -d --name kmou-app --restart unless-stopped \
+  --network kmou-private --network-alias app --read-only --tmpfs /tmp:rw,size=64m \
+  --cap-drop ALL --security-opt no-new-privileges \
+  --log-opt max-size=10m --log-opt max-file=3 \
+  -e APP_ORIGIN='https://${domain_name}' \
+  -e LLM_PROVIDER='${llm_provider}' \
+  -e LLM_BASE_URL='${llm_base_url}' \
+  -e LLM_LARGE_BASE_URL='${llm_large_base_url}' \
+  -e LLM_MODEL='${llm_model}' \
+  -e LLM_LARGE_MODEL='${llm_large_model}' \
+  "$IMAGE" >/dev/null
+# Caddy's data directory holds ACME account material and certificates across restarts.
+docker pull caddy:2
+docker rm -f kmou-caddy >/dev/null 2>&1 || true
+docker run -d --name kmou-caddy --restart unless-stopped \
+  --network kmou-private -p 80:80 -p 443:443 \
+  -v /opt/kmou/Caddyfile:/etc/caddy/Caddyfile:ro \
+  -v /opt/kmou/caddy-data:/data \
+  -v /opt/kmou/caddy-config:/config \
+  --log-opt max-size=10m --log-opt max-file=3 \
+  caddy:2 >/dev/null
+# This is a dedicated small instance; retain only images used by live containers.
+docker image prune -af >/dev/null
+printf 'Deployed %s\n' "$IMAGE"

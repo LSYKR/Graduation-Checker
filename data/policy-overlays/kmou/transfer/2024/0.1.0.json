@@ -1,0 +1,71 @@
+{
+  "id": "kmou-transfer-2024-recognition-overlay",
+  "version": "0.1.0",
+  "status": "review",
+  "selector": {
+    "universityId": "kmou",
+    "transferEntryYear": 2024,
+    "studentType": "transfer"
+  },
+  "curriculumResolution": {
+    "policy": "same-grade-cohort-at-transfer",
+    "entryGrade": 3,
+    "resolvedCurriculumYear": 2022,
+    "sourceDocumentId": "kmou-2024-first-semester-course-handbook",
+    "sourcePages": [
+      7,
+      13
+    ]
+  },
+  "creditRecognition": {
+    "source": "transcript-recognized-rows",
+    "semesterLabel": "편입생 인정학점",
+    "requiresSingleRecognitionYear": true,
+    "maximumRecognizedFraction": 0.5,
+    "minimumHostSemesters": 4,
+    "earlyGraduationAllowed": false,
+    "unmatchedCreditsMayBeRecognizedAs": "freeElective",
+    "missingRequiredCoursesMustBeCompleted": true,
+    "departmentReviewRequired": true,
+    "sourceDocumentId": "kmou-2024-transfer-admissions-guide",
+    "sourcePages": [
+      18
+    ]
+  },
+  "composition": {
+    "graduationRuleSelector": {
+      "universityId": "kmou",
+      "admissionYear": 2022,
+      "departmentId": "computer-engineering"
+    },
+    "principle": "shared-curriculum-rule-plus-recognized-credits",
+    "separateTransferGraduationRule": false
+  },
+  "sources": [
+    {
+      "id": "kmou-2024-first-semester-course-handbook",
+      "title": "2024학년도 제1학기 수강편람 세부내용",
+      "organization": "국립한국해양대학교",
+      "updatedAt": "2024학년도 제1학기",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=02ee665352124b6282ef799506ee1478",
+      "fileHash": "sha256:95676117bd6f9735006ba9f476552d9477ffb5168437e87e8c621792f3abafa1",
+      "documentVersionId": "kmou-2024-first-semester-course-handbook@95676117bd6f"
+    },
+    {
+      "id": "kmou-2024-transfer-admissions-guide",
+      "title": "2024학년도 대학 편입학 모집요강",
+      "organization": "국립한국해양대학교 입학본부",
+      "updatedAt": "2024학년도",
+      "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=bb63a5c4bc61aa422da7e1f51c38f5a3",
+      "fileHash": "sha256:faf79b921e72cbf1b0d9ab12e8927e2e651f1b75d240ae319d8f33dced89dbbf",
+      "documentVersionId": "kmou-2024-transfer-admissions-guide@faf79b921e72"
+    }
+  ],
+  "notes": [
+    "편입생을 위한 별도 졸업요건 규칙을 생성하지 않습니다.",
+    "편입 당시 동등학년 재학생에게 적용되는 공통 교육과정 규칙을 선택합니다.",
+    "전적대학 인정 교과목은 성적표의 편입생 인정학점 행을 통해 취득 교과목·학점으로 합산합니다.",
+    "인정받지 못한 졸업 필수과목과 교양·전공 이수학점은 재학 중 동일하게 충족해야 합니다.",
+    "최소 본교 이수학기와 조기졸업 제한은 졸업요건을 대체하지 않는 편입생 정책 오버레이입니다."
+  ]
+}

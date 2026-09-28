@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "kmou-2022-computer-engineering-general-education-special-recognition",
+  "version": "1.0.0",
+  "status": "verified-final",
+  "selector": {
+    "universityId": "kmou",
+    "admissionYear": 2022,
+    "departmentId": "computer-engineering"
+  },
+  "matchPolicy": "exact-course-code-only",
+  "rules": [
+    {
+      "id": "kmou-2022-ce-double-70557",
+      "courseCode": "70557",
+      "courseName": "해사영어어휘연습과 코퍼스영어학",
+      "credits": 3,
+      "targetAreaId": "marine-culture",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "sourceCategory": "전공선택",
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "E81:M81",
+        "note": "해양문화 영역의 이중설강 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-cross-00469",
+      "courseCode": "00469",
+      "courseName": "문화유산으로보는우리부산(교차강의)",
+      "credits": 3,
+      "targetAreaId": "history-culture",
+      "mode": "cross-institution",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "G157:M157",
+        "note": "역사와문화 영역의 교차강의 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-cross-00470",
+      "courseCode": "00470",
+      "courseName": "영화와함께하는죽음학(교차강의)",
+      "credits": 3,
+      "targetAreaId": "history-culture",
+      "mode": "cross-institution",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "B158:M158",
+        "note": "역사와문화 영역의 교차강의 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-double-80025",
+      "courseCode": "80025",
+      "courseName": "영미단편",
+      "credits": 3,
+      "targetAreaId": "history-culture",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "sourceCategory": "전공선택",
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "E159:M159",
+        "note": "역사와문화 영역의 이중설강 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-double-31187",
+      "courseCode": "31187",
+      "courseName": "동아시아의이해",
+      "credits": 2,
+      "targetAreaId": "history-culture",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "sourceCategory": "전공기초",
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "E160:M160",
+        "note": "역사와문화 영역의 이중설강 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-double-31982",
+      "courseCode": "31982",
+      "courseName": "로컬문화와지역뉴딜",
+      "credits": 2,
+      "targetAreaId": "history-culture",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "G161:M161",
+        "note": "역사와문화 영역의 이중설강 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-double-71034",
+      "courseCode": "71034",
+      "courseName": "영문학과영상",
+      "credits": 2,
+      "targetAreaId": "history-culture",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "G162:M162",
+        "note": "역사와문화 영역의 이중설강 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-double-80081",
+      "courseCode": "80081",
+      "courseName": "동아시아지역문화의이해",
+      "credits": 2,
+      "targetAreaId": "history-culture",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "G163:M163",
+        "note": "역사와문화 영역의 이중설강 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-double-80082",
+      "courseCode": "80082",
+      "courseName": "동아시아문명과사회",
+      "credits": 2,
+      "targetAreaId": "history-culture",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "G164:M164",
+        "note": "역사와문화 영역의 이중설강 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-double-80083",
+      "courseCode": "80083",
+      "courseName": "새로운동아시아사",
+      "credits": 2,
+      "targetAreaId": "history-culture",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "G165:M165",
+        "note": "역사와문화 영역의 이중설강 교과목으로 명시"
+      }
+    },
+    {
+      "id": "kmou-2022-ce-double-31756",
+      "courseCode": "31756",
+      "courseName": "법학적성시험의이해",
+      "credits": 2,
+      "targetAreaId": "social-economy",
+      "mode": "double-listed",
+      "categoryEffect": "area-only",
+      "acceptedTranscriptKinds": ["completed", "transfer-recognized"],
+      "sourceCategory": "전공선택",
+      "evidence": {
+        "sourceId": "kmou-2022-computer-engineering-detailed-curriculum",
+        "sheet": "2022학년도 교양교육이수체계표(IT융합전공)",
+        "cellRange": "E214:M214",
+        "note": "사회와경제 영역의 이중설강 교과목으로 명시"
+      }
+    }
+  ],
+  "source": {
+    "id": "kmou-2022-computer-engineering-detailed-curriculum",
+    "title": "2022학년도 IT융합전공 상세 교육과정표",
+    "organization": "국립한국해양대학교 인공지능공학부",
+    "updatedAt": "2022학년도",
+    "url": "https://www.kmou.ac.kr/common/nttFileDownload.do?fileKey=25327f0e142f0b096955f1a3d01e58ee",
+    "fileName": "2022_computer_engineering_curriculum.xlsx",
+    "fileHash": "sha256:f3a5f3fb947699d1062ae2b8d99d6ebb14b5b54d94f1acbbce5beff554d70501",
+    "documentVersionId": "kmou-2022-computer-engineering-detailed-curriculum@f3a5f3fb9476"
+  },
+  "verifiedAt": "2026-08-06",
+  "notes": [
+    "오버레이는 2022학번 IT융합전공(현재 컴퓨터공학전공) 규칙에만 결합한다.",
+    "과목명 유사도는 사용하지 않고 교과목번호가 정확히 일치할 때만 인정한다.",
+    "공식 각주에 따라 이중설강 전공 교과목은 타 전공 학생에게 교양선택으로 인정한다.",
+    "영역 인정과 성적표 이수구분 총학점 재분류는 분리한다. 후자는 개인별 인정내역을 그대로 유지한다."
+  ]
+}
